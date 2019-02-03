@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0050)http://www.icst.pku.edu.cn/course/icb/MRS_MCI.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="language" content="english">
+<title>TBN</title>
+<meta name="description" content="Temporal Bilinear Networks for Video Action Recognition">
+<meta name="author" content="Yanghao Li, Sijie Song, Yuqi Li, Jiaying Liu">
+<link rel="icon" type="image/x-icon" href="http://www.icst.pku.edu.cn/favicon.ico">
+<link rel="stylesheet" type="text/css" href="TBN/css/project.css">
+</head>
+
+<body>
+<div id="main">
+  
+	<div class="content"><br>
+		<h1>Temporal Bilinear Networks for Video Action Recognition</h1>
+		<div class="authors">
+			<div class='author'>
+				 <A href="https://lyttonhao.github.com" style="text-decoration: none">Yanghao Li</A>
+		    </div>
+		    <div class="author">
+               <a href="mailto:ssj940920@pku.edu.cn" style="text-decoration: none">Sijie Song</a>
+            </div>
+			<div class='author'>
+				 <A href="mailto:liyuqi@pku.edu.cn" style="text-decoration: none">Yuqi Li</A>
+			</div>			
+			<div class='author'>
+				 <A href="http://www.icst.pku.edu.cn/course/icb/people/liujiaying.html" style="text-decoration: none">Jiaying Liu</A>
+			</div>
+		</div>
+		<br>
+	  	<p class="banner" align="center"><EM>Accepted by AAAI, Jan 2019. </EM></p>
+
+
+		<div class="Abstract sec">
+			<h2>Abstract</h2>
+			<div class='desp'>
+				<p style="text-align:justify">
+				 Temporal modeling in videos is a fundamental yet challenging problem in computer vision. In this paper, we propose a novel Temporal Bilinear (TB) model to  capture the temporal pairwise feature interactions between adjacent frames. Compared with some existing temporal methods which are limited in linear transformations, our TB model considers explicit quadratic bilinear transformations in the temporal domain for motion evolution and sequential relation modeling. We further leverage the factorized bilinear model in linear complexity and a bottleneck network design to build our TB blocks, which also constrains the parameters and computation cost.  We consider two schemes in terms of the incorporation of TB blocks and the original 2D spatial convolutions, namely wide and deep Temporal Bilinear Networks (TBN). Finally, we perform experiments on several widely adopted datasets including Kinetics, UCF101 and HMDB51. The effectiveness of our TBNs is validated by comprehensive ablation analyses and comparisons with various state-of-the-art methods.
+				</p>
+			</div>
+		</div>
+
+		<div class="Abstract sec">
+			<h2>Framework</h2>
+			<div align="center" class="images">
+				<img align="center" src='TBN/figures/TB_module1.png' width='30%' alt="Teaser" >
+		  		<p style="text-align: center">Figure 1. The structure of Temporal Bilinear module. The feature maps are shown as the shape of their tensors.</p>
+	  		</div>
+	  		<div align="center" class="images">
+				<img align="center" src='TBN/figures/structure1.png' width='70%' alt="Teaser" >
+		  		<p style="text-align: center">Figure 2. The structures of the original ResNet block, proposed Wide TB block and Deep TB block.</p>
+	  		</div>
+	  	
+		</div>
+
+		<div class="download_sec">
+			<h2>Recourses</h2>
+			<div>
+				<li><strong>Paper</strong>:  <a href="https://arxiv.org/abs/1811.09974">arXiv</a></li>
+				<li><strong>Related Projects</strong>:  <a href="http://www.icst.pku.edu.cn/struct/Projects/fbn.html">Factorized Bilinear Models for Image Recognition (ICCV 2017)</a></li>
+			</div>
+		</div>
+
+
+
+
+		<div class='citation sec'>
+			<h2>Citation</h2>
+			<p class='bibtex'>@article{li2019temporal,
+&nbsp; title={Temporal Bilinear Networks for Video Action Recognition},
+&nbsp; author={Li, Yuqi and Li, Yanghao and Yan, Hongfei and Liu, Jiaying},
+&nbsp; booktitle={AAAI Conference on Artificial Intelligence},
+&nbsp; year={2019}
+}
+			</p>
+		</div>
+
+		<div class="results_sec">
+			<h2>Experimental Results</h2>
+			<div align="center">
+				<img align="center" src='TBN/figures/results.png' width='80%'>
+				<p style="text-align: center">Table 1. Comparisons on the validation set of Kinetics using RGB as input. </p>
+				<br>
+			</div>
+		</div>
+
+
+
+  </div>
+</div>
+</body>
+</html>

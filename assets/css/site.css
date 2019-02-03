@@ -1,0 +1,45 @@
+
+figure {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+  figure img {
+    margin-bottom: 10px; 
+    border-style: outset;
+    border-width:1px;
+  }
+  figure.research-proj-img img {
+    width: 600px;
+    margin-right: 10px; 
+  }
+  figure.course-proj-img img {
+    float: left;
+    width: 320px;
+    margin-right: 10px; 
+  }
+  figure.course-proj-img figcaption {
+    font-size: 1rem; 
+  }
+    figure.course-proj-img figcaption a {
+      color: black;
+      text-decoration: underline; 
+    }
+    figure.course-proj-img figcaption p {
+      font-size: 1rem;
+    }
+
+.label {
+  padding: 1px 4px 2px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 13px;
+  color: #ffffff;
+  vertical-align: top;
+  white-space: nowrap;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #999999;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
