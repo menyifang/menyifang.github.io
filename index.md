@@ -5,7 +5,7 @@ excerpt: "Yifang Men's homepage"
 search_omit: true
 ---
 
-I am Yifang Men, currently a master student in the Institute of Computer Science & Technology of Peking University (ICST). I鈥檓 a member of the CSCL group at the Institute of Computer Science and Technology.
+I am Yifang Men, currently a master student in the Institute of Computer Science & Technology of Peking University (ICST). I'm a member of the CSCL group at the Institute of Computer Science and Technology.
 
 ### Experiences
 * Master Condidate in Computer Science (09/2017 - present)\\
