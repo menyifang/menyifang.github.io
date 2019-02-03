@@ -28,7 +28,7 @@ My research projects are available at [**my project page**]({{ myf_site.url }}/p
 
 * **Yifang Men**, Zhouhui Lian, Yingmin Tang, Jianguo Xiao. "A Common Framework for Interactive Texture Transfer", *Proc. of Computer Vision and Pattern Recognition (**CVPR**)* (accepted as spotlight), Salt Lake City, American, Jun. 2018.
 
-•	Haojun Ai, * **Yifang Men**, Liangliang Han, Zuchao Li, Mengyun Liu. "High precision gesture sensing via quantitative characterization of the Doppler effect", *Proc. of International Conference on Pattern Recognition (**ICPR**)*, Cacun, Mexico, Dec. 2016.
+*	Haojun Ai, **Yifang Men**, Liangliang Han, Zuchao Li, Mengyun Liu. "High precision gesture sensing via quantitative characterization of the Doppler effect", *Proc. of International Conference on Pattern Recognition (**ICPR**)*, Cacun, Mexico, Dec. 2016.
 
 ### Contact Me
 * Email: yifangmen AT pku,edu.cn
