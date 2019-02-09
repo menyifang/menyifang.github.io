@@ -20,7 +20,7 @@ My main interest lies in computer vision and graphics, including:
 * Image Style Transfer
 * Stylized Animation
 
-My research projects are available at [**my project page**]({{ ***.url }}/projects/).
+My research projects are available at [**my project page**]({{ ***.url }}/pro**/).
 
 ### Publications
 
