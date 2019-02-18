@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="language" content="english">
+<title>CFITT</title>
+<meta name="description" content="Interactive Texture Transfer">
+<meta name="author" content="Yifang Men">
+<link rel="icon" type="image/x-icon" href="http://www.icst.pku.edu.cn/favicon.ico">
+<link rel="stylesheet" type="text/css" href="./CFITT_files/project.css">
+</head>
+
+<body>
+<div id="main">
+  
+	<div class="content"><br>
+		<h1>A Common Framework for Interactive Texture Transfer </h1>
+		<div class="authors">
+			<div class="author">
+				 <a href="https://menyifang.github.com/" style="text-decoration: none">Yifang Men</a>
+		    </div>
+		    <div class="author">
+				 <a href="http://www.icst.pku.edu.cn/zlian/" style="text-decoration: none">Zhouhui Lian</a>
+			</div>
+			<div class="author">
+				 <a href="mailto:tangyingmin@pku.edu.cn" style="text-decoration: none">Yingmin Tang</a>
+			</div>
+			<div class="author">
+				 <a href="mailto:xiaojianguo@pku.edu.cn" style="text-decoration: none">Jianguo Xiao</a>
+			</div>
+	
+		</div>
+		<br>
+	  	<p class="banner" align="center"><em>Accepted by CVPR, June 2018. </em></p>
+		<div class="overview sec">
+			<div class="picture_wrapper">
+		  		<img src="./CFITT_files/CFITT_easer.jpg" width="50%" alt="Teaser">
+		  		<p style="text-align: left">Fig.1 Representative results generated using our interactive structure-guided texture transfer framework. The stylized images are synthesized with the guidance of corresponding user-specified semantic maps. The proposed common framework is capable of multiple challenging user-controlled texture transfer tasks: (a) turning doodles into artworks, (b) editing decorative patterns, (c) generating texts in special effect, (d) controlling effect distribution in text images, (e) swapping textures.</p>
+	  		</div>
+	  	</div>
+
+		<div class="Abstract sec">
+			<h2>Abstract</h2>
+			<div class="desp">
+				<p style="text-align:justify">
+				In this paper, we present a general-purpose solution to interactive texture transfer problems that better preserves both local structure and visual richness. It is challenging due to the diversity of tasks and the simplicity of required user guidance. The core idea of our common framework is to use multiple custom channels to dynamically guide the synthesis process. For interactivity, users can control the spatial distribution of stylized textures via semantic channels. The structure guidance, acquired by two stages of automatic extraction and propagation of structure information, provides a prior for initialization and preserves the salient structure by searching the nearest neighbor fields (NNF) with structure coherence. Meanwhile, texture coherence is also exploited to maintain similar style with the source image. In addition, we leverage an improved PatchMatch with extended NNF and matrix operations to obtain transformable source patches with richer geometric information at high speed. We demonstrate the effectiveness and superiority of our method on a variety of scenes through extensive comparisons with state-of-the-art algorithms.
+				</p>
+			</div>
+			<div align="center" id="pipeline">
+		  		<img src="./CFITT_files/pipeline.png" width="60%">
+		  		<p style="text-align: left">Fig. 2. The pipeline of our framework.</p>
+	  		</div>
+		</div>
+
+		<div class="download sec">
+			<h2>Download</h2>
+			<div>
+				<li><strong>Paper</strong>: <a href="./CFITT_files/Men_A_Common_Framework_CVPR_2018_paper.pdf">pdf</a></li>
+				<li><strong>Supplementary Material</strong>: <a href="./CFITT_files/supp.pdf">pdf</a></li>
+
+			</div>
+		</div>
+
+		<div class="citation sec">
+			<h2>Citation</h2>
+			<p class="bibtex">@inproceedings{men2018common,
+&nbsp; title={A Common Framework for Interactive Texture Transfer},
+&nbsp; author={Men, Yifang and Lian, Zhouhui and Tang, Yingmin and Xiao, Jianguo},
+&nbsp; booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+&nbsp; pages={6353--6362},
+&nbsp; year={2018}
+}
+			</p>
+		</div>
+
+
+
+
+<!-- 		<div class="experiments sec">
+			<h2>Additional Results</h2>
+			<div id="images">
+				<h3>Action Detection Performance</h3>
+				<div align="center" id="table">
+					<p>Table 1. F 1?Score on OAD dataset</p>
+					<img src='OAD/figures/OAD_table.png' width='50%' >
+				</div>
+			</div>
+		</div>
+		<br></br> -->
+
+
+
+  </div>
+</div>
+
+
+</body></html>
