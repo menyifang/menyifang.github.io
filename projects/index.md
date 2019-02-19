@@ -49,16 +49,20 @@ H. Ai, Y. Men*, L. Han, Z. Li, and M. Liu
 <h4>Ultrasonic Doppler-based Human-computer Interaction System</h4>
 
 <figure class="course-proj-img">
-    <img src="/images/projects/weibopic.png" alt="" />
+    <img src="/images/projects/Doppler.png" alt="" />
     <figcaption>
-    <p>Introduction to Visualization, 2014 - 2015 Fall</p>
-    Implemented a Weibo visualization and interaction system for users to explore top events among thousands of weibos in a specific time. <br> <a href="http://vis.pku.edu.cn/course/Visualization_2014F/final_project/group7/"><span class="label">HERE</span></a>
+    <p> 2016 - 2017 Fall</p>
+    Implemented an HCI system for 3D-characters control, album flip, etc. using gesture sensing. <br> 
+
+   
+
+<a href="https://menyifang.github.io/projects/Doppler/Doppler.html"><span class="label">DETAIL</span></a>
 
     </figcaption>
 </figure>
 
 <div class="videos sec" align="center">
 			<video width="600" height="450" controls="">
-			  <source src="https://menyifang.github.io/projects/GestureSense/Gesture_files/Gesture_video.mp4" type="video/mp4">
+			  <source src="https://menyifang.github.io/projects/Doppler/Doppler_files/Gesture_video.mp4" type="video/mp4">
 			</video>
 		</div>
