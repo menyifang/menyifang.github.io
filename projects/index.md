@@ -14,7 +14,7 @@ Y. Men, Z. Lian, Y. Tang, and J. Xiao
 </p>
 
 <figure class="research-proj-img1">
-    <img src="/images/projects/cfitt_easer.jpg" alt="" style="height: 360px; width:auto"/>
+    <img src="/images/projects/cfitt_easer.jpg" alt="" style="height: 300px; width:auto"/>
 </figure>
 <p style="font-size: 15px">In this paper, we present a general-purpose solution to interactive texture transfer problems including
 turning doodles into artworks, editing decorative patterns, generating texts in special effect as well as controlling effect distribution in text images, and swapping textures
@@ -52,17 +52,14 @@ H. Ai, Y. Men*, L. Han, Z. Li, and M. Liu
     <img src="/images/projects/Doppler.png" alt="" />
     <figcaption>
     <p> 2016 - 2017 Fall</p>
-    Implemented an HCI system for 3D-characters control, album flip, etc. using gesture sensing. <br> 
-
-   
+    Implemented an HCI system using gesture sensing for 3D-characters control, album flip, etc. <br> 
+&#45 the core algorithm for doppler-based gesture recognition <br>
+&#45 3D character controlling using Unity3D <br>
+&#45 UI design and code programming with C# <br>
 
 <a href="https://menyifang.github.io/projects/Doppler/Doppler.html"><span class="label">DETAIL</span></a>
 
     </figcaption>
 </figure>
 
-<div class="videos sec" align="center">
-			<video width="600" height="450" controls="">
-			  <source src="https://menyifang.github.io/projects/Doppler/Doppler_files/Gesture_video.mp4" type="video/mp4">
-			</video>
-		</div>
+
