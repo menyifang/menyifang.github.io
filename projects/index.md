@@ -53,9 +53,9 @@ H. Ai, Y. Men*, L. Han, Z. Li, and M. Liu
     <figcaption>
     <p> 2016 - 2017 Fall</p>
     Implemented an HCI system using gesture sensing for 3D-characters control, album flip, etc. <br> 
-&#45 the core algorithm for doppler-based gesture recognition <br>
-&#45 3D character controlling using Unity3D <br>
-&#45 UI design and code programming with C# <br>
+ — the core algorithm for doppler-based gesture recognition <br>
+ — 3D character controlling using Unity3D <br>
+ — UI design and code programming with C# <br>
 
 <a href="https://menyifang.github.io/projects/Doppler/Doppler.html"><span class="label">DETAIL</span></a>
 
