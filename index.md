@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Yifang Men
+title: 
 excerpt: "Yifang Men's homepage"
 search_omit: true
 ---
