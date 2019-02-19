@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://menyifang.github.io/</loc>
+  <lastmod>2019-02-19T07:16:38+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://menyifang.github.io/projects/</loc>
+  <lastmod>2019-02-19T07:16:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://menyifang.github.io/projects/CFITT/CFITT_files/Men_A_Common_Framework_CVPR_2018_paper.pdf</loc>
+  <lastmod>2019-02-19T07:16:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://menyifang.github.io/projects/CFITT/CFITT.html</loc>
+  <lastmod>2019-02-19T07:16:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://menyifang.github.io/projects/GestureSense/Gesture_files/Gesture_Sense_ICPR_2016.pdf</loc>
+  <lastmod>2019-02-19T07:16:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://menyifang.github.io/projects/GestureSense/Gesture.html</loc>
+  <lastmod>2019-02-19T07:16:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://menyifang.github.io/projects/Doppler/Doppler.html</loc>
+  <lastmod>2019-02-19T07:16:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://menyifang.github.io/projects/CFITT/CFITT_files/supp.pdf</loc>
+  <lastmod>2019-02-19T07:16:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
