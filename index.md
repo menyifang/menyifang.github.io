@@ -24,11 +24,17 @@ My research projects are available at [**my project page**]({{ site.url }}/proje
 
 ### Publications
 
-#### Conference
+* **Yifang Men**, Zhouhui Lian, Yingmin Tang, Jianguo Xiao. "A Common Framework for Interactive Texture Transfer", *Proc. of Computer Vision and Pattern Recognition (**CVPR**)* (accepted as **spotlight**), Salt Lake City, American, Jun. 2018.
 
-* **Yifang Men**, Zhouhui Lian, Yingmin Tang, Jianguo Xiao. "A Common Framework for Interactive Texture Transfer", *Proc. of Computer Vision and Pattern Recognition (**CVPR**, Jun. 2018)* (accepted as **spotlight**), Salt Lake City, American.
+* Haojun Ai, **Yifang Men**, Liangliang Han, Zuchao Li, Mengyun Liu. "High precision gesture sensing via quantitative characterization of the Doppler effect", *Proc. of International Conference on Pattern Recognition (**ICPR**)*, Cacun, Mexico, Dec. 2016.
 
-*	Haojun Ai, **Yifang Men**, Liangliang Han, Zuchao Li, Mengyun Liu. "High precision gesture sensing via quantitative characterization of the Doppler effect", *Proc. of International Conference on Pattern Recognition (**ICPR**, Dec. 2016)*, Cacun, Mexico.
+### Awards
+* Huawei Scholarship, Peking University, 2018
+* Outstanding Graduates of Wuhan University, 2017
+* Meritorious Winner of Interdisciplinary Contest In Modeling (ICM), Global, 2016
+* Second Prize of Asia and Pacific Mathematical Contest in Modeling, China, 2015
+* First Prize in the IBM Cup Web Page Design Competition, 2014
+* National Scholarship for Undergraduate, 2014
 
 ### Contact Me
 * Email: yifangmen AT pku.edu.cn
