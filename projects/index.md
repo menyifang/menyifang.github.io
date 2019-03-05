@@ -14,7 +14,7 @@ Y. Men, Z. Lian, Y. Tang, and J. Xiao
 </p>
 
 <figure class="research-proj-img1">
-    <img src="/images/projects/DynTypo_easer.jpg" alt="" style="height: 300px; width:auto"/>
+    <img src="/images/projects/DynTypo_easer.jpg" alt="" style="height: 180px; width:auto"/>
 </figure>
 <p style="font-size: 15px">In this paper, we present a novel approach for dynamic text effects transfer by using example-based texture synthesis and high-quality results
 with temporal smoothing and sophisticated dynamic effects are acqired.
