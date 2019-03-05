@@ -70,10 +70,10 @@ div.picture_wrapper {
     text-align:center;
     overflow:visible; 
     padding: 2em 0 0.5em 0;
-    width:850px;
+    width:930px;
 }
 .picture_wrapper img { 
-    width:600px;
+    width:800px;
 }
 
 .download_sec a{
