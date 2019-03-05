@@ -19,7 +19,7 @@ Y. Men, Z. Lian, Y. Tang, and J. Xiao
 <p style="font-size: 15px">In this paper, we present a novel approach for dynamic text effects transfer by using example-based texture synthesis and high-quality results
 with temporal smoothing and sophisticated dynamic effects are acqired.
 
- <br><span class="label">PDF pending</span></a>
+ <br><span class="label">PDF Pending</span>
 <a href="https://youtu.be/FkFQ6bV1s-o"><span class="label">Demo Video</span></a>
      <a href="https://menyifang.github.io/projects/DynTypo/DynTypo.html"><span class="label">Project Page</span></a>
     
@@ -38,8 +38,7 @@ Y. Men, Z. Lian, Y. Tang, and J. Xiao
 <figure class="research-proj-img1">
     <img src="/images/projects/cfitt_easer.jpg" alt="" style="height: 300px; width:auto"/>
 </figure>
-<p style="font-size: 15px">In this paper, we present a general-purpose solution to interactive texture transfer problems including
-turning doodles into artworks, editing decorative patterns, generating texts in special effect as well as controlling effect distribution in text images, and swapping textures
+<p style="font-size: 15px">In this paper, we present a general-purpose solution to interactive texture transfer problems including turning doodles into artworks, editing decorative patterns, generating texts in special effect as well as controlling effect distribution in text images, and swapping textures.
 
  <br><a href="https://menyifang.github.io/projects/CFITT/CFITT_files/Men_A_Common_Framework_CVPR_2018_paper.pdf"><span class="label">PDF</span></a>
      <a href="https://menyifang.github.io/projects/CFITT/CFITT.html"><span class="label">Project Page</span></a>
