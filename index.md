@@ -33,11 +33,19 @@ My research projects are available at [**my project page**]({{ site.url }}/proje
 * Haojun Ai, **Yifang Men**, Liangliang Han, Zuchao Li, Mengyun Liu. "High precision gesture sensing via quantitative characterization of the Doppler effect", *Proc. of International Conference on Pattern Recognition (**ICPR**)*, Cacun, Mexico, Dec. 2016.
 
 ### Patents
-* 一种基于结构引导的图像纹理迁移方法，申请人: 连宙辉、门怡芳、唐英敏、肖建国，专利申请号: 201810224267.7
-* 一种基于样例的动态文本特效的自动迁移方法，申请人:   连宙辉、门怡芳、唐英敏、肖建国，专利申请号:   201810796815.3 
-* 一种基于音频多普勒特征量化的手势识别方法，申请人：艾浩军、王壹丰、门怡芳、费豪、李铮， 专利号： CN107526437A 
-* 基于超声波多普勒效应人机交互系统（软件著作权），著作人：艾浩军、门怡芳，登记号：2016SR218485
-*  基于隐马尔可夫模型的手势训练与评估系统（软件著作权），著作人：艾浩军、门怡芳，登记号：2016SR218488
+
+* A Texture Transfer Method based on Structure Guidance.  Chinese Patent, 201810224267.7. 
+Author: Zhouhui Lian, Yifang Men, Yingmin Tang, Jianguo Xiao.
+* An Automatic Generation Method of Dynamic Typography with Exemplar.  Chinese Patent, 201810796815.3. 
+Author: Zhouhui Lian, Yifang Men, Yingmin Tang, Jianguo Xiao.
+* A Gesture Recognition Method Based on Audio Doppler Feature Quantization, Chinese Patent, CN107526437A.
+Author: Haojun Ai, Yifeng Wang, Yifang Men, Hao Fei, Zheng Li.
+* Human-computer Interaction System Based on Ultrasonic Doppler Effect (software copyright), Registration number, 2016SR218485.
+Author: Haojun Ai, Yifang Men.
+* Gesture Training and Evaluation System Based on Hidden Markov Model(software copyright), Registration number, 2016SR218488
+Author: Haojun Ai, Yifang Men.
+
+
 
 ### Awards
 * Huawei Scholarship, Peking University, 2018
