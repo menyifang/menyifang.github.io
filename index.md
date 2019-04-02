@@ -26,7 +26,7 @@ My research projects are available at [**my project page**]({{ site.url }}/proje
 
 * **Yifang Men**, Zhouhui Lian, Yingmin Tang, Jianguo Xiao. "DynTypo: Example-based Dynamic Text Effects Transfer", *Proc. of Computer Vision and Pattern Recognition (**CVPR**)* , Long Beach, American, Jun. 2019.
 
-* **Yifang Men**, Zhouhui Lian, Yingmin Tang, Jianguo Xiao. "A Common Framework for Interactive Texture Transfer", *Proc. of Computer Vision and Pattern Recognition (**CVPR**)* (accepted as **spotlight**), Salt Lake City, American, Jun. 2018.
+* **Yifang Men**, Zhouhui Lian, Yingmin Tang, Jianguo Xiao. "A Common Framework for Interactive Texture Transfer", *Proc. of Computer Vision and Pattern Recognition (**CVPR**)* (accepted as **spotlight, Top 7% Papers**), Salt Lake City, American, Jun. 2018.
 
 * **Yifang Men**, Zhouhui Lian, Yingmin Tang, Jianguo Xiao. "Anonymous Title", In Submission to *Proc. of International Conference on Computer Vision (**ICCV**)*, Seoul, Korea, Oct. 2019.
 
