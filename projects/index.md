@@ -14,10 +14,10 @@ Y. Men, Z. Lian, Y. Tang, and J. Xiao
 </p>
 
 <figure class="research-proj-img1">
-    <a href="https://menyifang.github.io/projects/DynTypo/DynTypo.html"><img src="/images/projects/DynTypo_easer.jpg" alt="" style="height: 180px; width:auto"/></a>
+    <a href="https://menyifang.github.io/projects/DynTypo/DynTypo.html"><img src="/images/projects/DynTypo_easer.jpg" alt="" style="height: 180px; width:auto" border="0"/></a>
 </figure>
 <p style="font-size: 15px">In this paper, we present a novel approach for dynamic text effects transfer by using example-based texture synthesis and high-quality results
-with temporal smoothing and sophisticated dynamic effects are acqired.
+with temporal smoothing and sophisticated dynamic effects are acqired. </p>
 
  <br> <a href="https://menyifang.github.io/projects/DynTypo/DynTypo_files/Paper_DynTypo_CVPR19.pdf"><span class="label">PDF</span>
           <a href="https://menyifang.github.io/projects/DynTypo/DynTypo.html"><span class="label">Project Page</span></a>
@@ -25,7 +25,7 @@ with temporal smoothing and sophisticated dynamic effects are acqired.
           
     
 
-</p>
+
 <br><br>
 
 
