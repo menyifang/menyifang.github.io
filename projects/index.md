@@ -39,6 +39,8 @@ Y. Men, Z. Lian, Y. Tang, and J. Xiao
 
  <br><a href="https://menyifang.github.io/projects/CFITT/CFITT_files/Men_A_Common_Framework_CVPR_2018_paper.pdf"><span class="label">PDF</span></a>
      <a href="https://menyifang.github.io/projects/CFITT/CFITT.html"><span class="label">Project Page</span></a>
+    <a href="https://menyifang.github.io/projects/CFITT/CFITT_files/poster_CFITT"><span class="label">Poster</span></a>
+
 
 </p>
 <br><br>
