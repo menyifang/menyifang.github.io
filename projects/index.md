@@ -7,7 +7,7 @@ excerpt: “Yifang Men’s Projects."
 
 <h2>Research Projects</h2>
 
-<h4>DynTypo: Example-based Dynamic Text Effects Transfer</h4>
+ <a href="https://menyifang.github.io/projects/DynTypo/DynTypo.html"><h4>DynTypo: Example-based Dynamic Text Effects Transfer</h4></a>
 <p style="font-size: 15px">
 CVPR 2019<br>
 Y. Men, Z. Lian, Y. Tang, and J. Xiao
