@@ -7,7 +7,7 @@ excerpt: “Yifang Men’s Projects."
 
 <h2>Research Projects</h2>
 
- <a href="https://menyifang.github.io/projects/DynTypo/DynTypo.html"><h4>DynTypo: Example-based Dynamic Text Effects Transfer</h4></a>
+ <a href="https://menyifang.github.io/projects/DynTypo/DynTypo.html"><b><h4>DynTypo: Example-based Dynamic Text Effects Transfer</h4></b></a>
 <p style="font-size: 15px">
 CVPR 2019<br>
 Y. Men, Z. Lian, Y. Tang, and J. Xiao
@@ -17,15 +17,12 @@ Y. Men, Z. Lian, Y. Tang, and J. Xiao
     <a href="https://menyifang.github.io/projects/DynTypo/DynTypo.html"><img src="/images/projects/DynTypo_easer.jpg" alt="" style="height: 180px; width:auto" border="0"/></a>
 </figure>
 <p style="font-size: 15px">In this paper, we present a novel approach for dynamic text effects transfer by using example-based texture synthesis and high-quality results
-with temporal smoothing and sophisticated dynamic effects are acqired. </p>
+with temporal smoothing and sophisticated dynamic effects are acqired. 
 
- <br> <a href="https://menyifang.github.io/projects/DynTypo/DynTypo_files/Paper_DynTypo_CVPR19.pdf"><span class="label">PDF</span>
+<br> <a href="https://menyifang.github.io/projects/DynTypo/DynTypo_files/Paper_DynTypo_CVPR19.pdf"><span class="label">PDF</span>
           <a href="https://menyifang.github.io/projects/DynTypo/DynTypo.html"><span class="label">Project Page</span></a>
           <a href="https://youtu.be/FkFQ6bV1s-o"><span class="label">Demo Video</span></a>
-          
-    
-
-
+</p>
 <br><br>
 
 
