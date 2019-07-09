@@ -14,7 +14,7 @@ I will graduate in June, 2020 and I am looking for job opportunities in this sum
   Advised by [*Prof. Zhouhui Lian*](http://www.icst.pku.edu.cn/zlian/)
 * Bachelor's Degree in Computer Science (09/2013 - 06/2017)\\
   School of Computer Science, Wuhan University
-* Research Intern in Visual Computing Group, ByteDance AI Lab (06/2019 - current)\\
+* Research Intern at Visual Computing Group, ByteDance AI Lab (06/2019 - current)\\
   Mentor: [*Yuning Jiang*](https://yuningjiang.github.io/) (Research Scientist)
 
 ### Research
@@ -22,7 +22,7 @@ My main interest lies in computer vision and graphics, including:
 
 * Image Synthesis (Conventional and Deep Generative Models)
 * Style Transfer and Deep Learning
-* Intelligent Visual Design
+* Intelligent Media Creation
 
 My research projects are available at [**my project page**]({{ site.url }}/projects/).
 
@@ -36,7 +36,7 @@ My research projects are available at [**my project page**]({{ site.url }}/proje
 
 * Haojun Ai, **Yifang Men**, Liangliang Han, Zuchao Li, Mengyun Liu. "High precision gesture sensing via quantitative characterization of the Doppler effect", *Proc. of International Conference on Pattern Recognition (**ICPR**)*, Cacun, Mexico, Dec. 2016.
 
-### Patents
+### Selected Patents
 
 * A Texture Transfer Method based on Structure Guidance.  Chinese Patent, 201810224267.7. 
 Author: Zhouhui Lian, Yifang Men, Yingmin Tang, Jianguo Xiao.
@@ -51,7 +51,7 @@ Author: Haojun Ai, Yifang Men.
 
 
 
-### Awards
+### Selected Awards
 * Huawei Scholarship, Peking University, 2018
 * Outstanding Graduates of Wuhan University, 2017
 * Meritorious Winner of Interdisciplinary Contest In Modeling (ICM), Global, 2016
@@ -61,4 +61,4 @@ Author: Haojun Ai, Yifang Men.
 
 ### Contact Me
 * Email: yifangmen AT pku.edu.cn
-* See footer
+
