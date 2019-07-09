@@ -11,8 +11,11 @@ I will graduate in June, 2020 and I am looking for job opportunities in this sum
 ### Experiences
 * Master Condidate in Computer Science (09/2017 - present)\\
   Institute of Computer Science and Technology, Peking University
+  Advised by [*Zhouhui Lian*](http://www.icst.pku.edu.cn/zlian/)
 * Bachelor's Degree in Computer Science (09/2013 - 06/2017)\\
   School of Computer Science, Wuhan University
+* Research Intern, Visual Computing Group, ByteDance AI Lab (06/2019 - current)\\
+  Mentor [*Yuning Jiang*](https://yuningjiang.github.io/) (Research Scientist)
 
 ### Research
 My main interest lies in computer vision and graphics, including:
