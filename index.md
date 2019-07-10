@@ -9,7 +9,7 @@ I am Yifang Men, currently a master student in the Institute of Computer Science
 I will graduate in June, 2020 and I am looking for job opportunities in this summer.
 
 ### Experiences
-* Master Condidate in Computer Science (09/2017 - present)\\
+* Master Condidate in Computer Science (09/2017 - current)\\
   Institute of Computer Science and Technology, Peking University\\
   Advised by [*Prof. Zhouhui Lian*](http://www.icst.pku.edu.cn/zlian/)
 * Bachelor's Degree in Computer Science (09/2013 - 06/2017)\\
