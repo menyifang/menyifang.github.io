@@ -5,8 +5,7 @@ excerpt: "Yifang Men's homepage"
 search_omit: true
 ---
 
-I am Yifang Men, currently a master student in the Institute of Computer Science & Technology of Peking University ([**ICST**](http://www.icst.pku.edu.cn)). I'm a member of the [**CSCL**](http://59.108.48.27/cscl/) group at the Institute of Computer Science and Technology. 
-I will graduate in June, 2020 and I am looking for job opportunities in this summer.
+I am Yifang Men, currently a master student in the Institute of Computer Science & Technology of Peking University ([**WICT**](http://www.icst.pku.edu.cn)). I'm a member of the [**CSCL**](http://59.108.48.27/cscl/) group at the Institute of Computer Science and Technology. 
 
 ### Experiences
 * Master Condidate in Computer Science (09/2017 - current)\\
@@ -14,7 +13,7 @@ I will graduate in June, 2020 and I am looking for job opportunities in this sum
   Advised by [*Prof. Zhouhui Lian*](http://www.icst.pku.edu.cn/zlian/)
 * Bachelor's Degree in Computer Science (09/2013 - 06/2017)\\
   School of Computer Science, Wuhan University
-* Research Intern at Visual Computing Group, ByteDance AI Lab (06/2019 - current)\\
+* Research Intern at Visual Computing Group, ByteDance AI Lab (06/2019 - 11/2019)\\
   Mentor: [*Yuning Jiang*](https://yuningjiang.github.io/) (Research Scientist)
 
 ### Research
@@ -27,12 +26,11 @@ My main interest lies in computer vision and graphics, including:
 My research projects are available at [**my project page**]({{ site.url }}/projects/).
 
 ### Publications
+* **Yifang Men**, Yiming Mao, Yuning Jiang, Weiying Ma, Zhouhui Lian. "Controllable Person Image Synthesis with Attribute-Decomposed GAN", *Proc. of Computer Vision and Pattern Recognition (**CVPR**)* , Seattle, American, Jun. 2020.
 
 * **Yifang Men**, Zhouhui Lian, Yingmin Tang, Jianguo Xiao. "DynTypo: Example-based Dynamic Text Effects Transfer", *Proc. of Computer Vision and Pattern Recognition (**CVPR**)* , Long Beach, American, Jun. 2019.
 
 * **Yifang Men**, Zhouhui Lian, Yingmin Tang, Jianguo Xiao. "A Common Framework for Interactive Texture Transfer", *Proc. of Computer Vision and Pattern Recognition (**CVPR**)* (Accepted as **spotlight, Top 7% Papers**), Salt Lake City, American, Jun. 2018.
-
-* **Yifang Men**, Zhouhui Lian, Yingmin Tang, Jianguo Xiao. "Anonymous Title", In Submission to *Proc. of International Conference on Computer Vision (**ICCV**)*, Seoul, Korea, Oct. 2019.
 
 * Haojun Ai, **Yifang Men**, Liangliang Han, Zuchao Li, Mengyun Liu. "High precision gesture sensing via quantitative characterization of the Doppler effect", *Proc. of International Conference on Pattern Recognition (**ICPR**)*, Cacun, Mexico, Dec. 2016.
 
