@@ -7,6 +7,25 @@ excerpt: “Yifang Men’s Projects."
 
 <h2>Research Projects</h2>
 
+<h4>Controllable Person Image Synthesis with Attribute-Decomposed GAN</h4>
+<p style="font-size: 15px">
+CVPR 2020<br>
+Y. Men, Y. Mao, Y. Jiang, W. Ma and Z. Lian
+</p>
+
+<figure class="research-proj-img1">
+    <img src="/images/projects/ADGAN_easer.pdf" alt="" style="height: 180px; width:auto" border="0"/>
+</figure>
+<p style="font-size: 15px">This paper introduces Attribute-Decomposed GAN, a novel generative model for controllable person image synthesis, which can produce realistic person images with desired
+human attributes (e.g., pose, head, upper clothes and pants) provided in various source inputs.
+
+<br> <a href="https://menyifang.github.io/projects/ADGAN/ADGAN.html"><span class="label">Project Page</span></a>
+         <a href="https://menyifang.github.io/projects/ADGAN/ADGAN_files/Paper_ADGAN_CVPR2020.pdf"><span class="label">PDF coming soon</span></a>
+          <a href="https://youtu.be/FkFQ6bV1s-o"><span class="label">Demo Video</span></a>
+</p>
+<br><br>
+
+
 <h4>DynTypo: Example-based Dynamic Text Effects Transfer</h4>
 <p style="font-size: 15px">
 CVPR 2019<br>
@@ -18,8 +37,8 @@ Y. Men, Z. Lian, Y. Tang, and J. Xiao
 </figure>
 <p style="font-size: 15px">In this paper, we present a novel approach for dynamic text effects transfer by using example-based texture synthesis and high-quality results
 with temporal smoothing and sophisticated dynamic effects are acqired. 
-<br> <a href="https://menyifang.github.io/projects/DynTypo/DynTypo_files/Paper_DynTypo_CVPR19.pdf"><span class="label">PDF</span></a>
-          <a href="https://menyifang.github.io/projects/DynTypo/DynTypo.html"><span class="label">Project Page</span></a>
+<br>  <a href="https://menyifang.github.io/projects/DynTypo/DynTypo.html"><span class="label">Project Page</span></a>
+          <a href="https://menyifang.github.io/projects/DynTypo/DynTypo_files/Paper_DynTypo_CVPR19.pdf"><span class="label">PDF</span></a>
           <a href="https://youtu.be/FkFQ6bV1s-o"><span class="label">Demo Video</span></a>
 </p>
 <br><br>
