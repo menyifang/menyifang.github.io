@@ -70,12 +70,14 @@ div.picture_wrapper {
     text-align:center;
     overflow:visible; 
     padding: 2em 0 0.5em 0;
-    width:930px;
+    width:920px;
 }
 .picture_wrapper img { 
-    width:800px;
+    width:500px;
 }
-
+.picture_wrapper2 img { 
+    width:750px;
+}
 .download_sec a{
     text-decoration:none;
     color: #665cbe;

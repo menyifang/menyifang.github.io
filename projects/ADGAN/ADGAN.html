@@ -1,42 +1,53 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="language" content="english">
-<title>DynTypo</title>
-<meta name="description" content="DynTypo: Example-based Dynamic Text Effects Transfer">
+<title>ADGAN</title>
+<meta name="description" content="Controllable Person Image Synthesis with Attribute-Decomposed GAN">
 <meta name="author" content="Yifang Men">
 <link rel="icon" type="image/x-icon" href="http://www.icst.pku.edu.cn/favicon.ico">
-<link rel="stylesheet" type="text/css" href="./DynTypo_files/project.css">
+<link rel="stylesheet" type="text/css" href="./ADGAN_files/project.css">
 </head>
 
 <body>
 <div id="main">
   
 	<div class="content"><br>
-		<h1>DynTypo: Example-based Dynamic Text Effects Transfer </h1>
+		<h1>Controllable Person Image Synthesis with Attribute-Decomposed GAN </h1>
 		<div class="authors">
 			<div class="author">
 				 <a href="https://menyifang.github.io/" style="text-decoration: none">Yifang Men</a>
-		    </div>
-		    <div class="author">
+		                </div>
+
+                                                <div class="author">
+				 <a href="mailto:maoym@shanghaitech.edu.cn" style="text-decoration: none">Yiming Mao</a>
+			</div>
+
+                                                <div class="author">
+				 <a href="https://yuningjiang.github.io/" style="text-decoration: none">Yuning Jiang</a>
+			</div>
+                                                <div class="author">
+				 <a href="https://scholar.google.com/citations?user=SToCbu8AAAAJ&hl=en" style="text-decoration: none">Weiying Ma</a>
+			</div>
+		                <div class="author">
 				 <a href="http://www.icst.pku.edu.cn/zlian/" style="text-decoration: none">Zhouhui Lian</a>
 			</div>
-			<div class="author">
-				 <a href="mailto:tangyingmin@pku.edu.cn" style="text-decoration: none">Yingmin Tang</a>
-			</div>
-			<div class="author">
-				 <a href="mailto:xiaojianguo@pku.edu.cn" style="text-decoration: none">Jianguo Xiao</a>
-			</div>
+			
 	
 		</div>
 		<br>
-	  	<p class="banner" align="center"><em>Accepted by CVPR, June 2019. </em></p>
+	  	<p class="banner" align="center"><em>Accepted by CVPR, June 2020. </em></p>
 		<div class="overview sec">
 			<div class="picture_wrapper">
-		  		<img src="./DynTypo_files/DynTypo_easer.jpg" width="100%" alt="Teaser">
-		  		<p style="text-align: left">Fig.1 The dynamic text effects from an exemplar video (far left) can be transferred to a target text image (bottom) using
-our method.</p>
+
+		  		<img src="./ADGAN_files/ADGAN_easer.png" width="50%" alt="Teaser">
+		  		<p style="text-align: left">Fig.1 Controllable person image synthesis with desired human attributes provided by multiple source images. Human attributes including pose and component attributes are embedded into the latent space as the pose code and decomposed style code. Target person images can be generated in user control with editable style code. </p>
 	  		</div>
 	  	</div>
+
+
+			
+
+
 
 
 
@@ -45,28 +56,29 @@ our method.</p>
 			<h2>Abstract</h2>
 			<div class="desp">
 				<p style="text-align:justify">
-				In this paper, we present a novel approach for dynamic text effects transfer by using example-based texture synthesis. In contrast to previous works that require an input video of the target to provide motion guidance, we aim to animate a still image of the target text by transferring the desired dynamic effects from an observed exemplar. Due to the simplicity of target guidance and complexity of realistic effects, it is prone to producing temporal artifacts such as flickers and pulsations. To address the problem, our core idea is to parallel optimize the textural coherence across all keyframes to find a common Nearest-neighbor Field (NNF), which implicitly?transfers motion properties from source to target. We also introduce an improved Patchmatch by employing the distance-based weight map and Simulated Annealing (SA) for deep direction-guided propagation to allow intense dynamic effects to be completely transferred with no semantic guidance provided. Furthermore, generated dynamic texts can be seamlessly embedded into any static backgrounds or video clips by poisson image editing. Experimental results demonstrate the effectiveness and superiority of our method in dynamic text effects transfer through extensive comparisons with state-of-the-art algorithms. We also show the potentiality of our method via multiple experiments for various application domains. 
-				</p>
+				This paper introduces Attribute-Decomposed GAN, a novel generative model for controllable person image synthesis, which can produce realistic person images with desired human attributes (e.g., pose, head, upper clothes and pants) provided in various source inputs. The core idea of the proposed model is to embed human attributes into the latent space as independent codes and thus achieve flexible and continuous control of attributes via mixing and interpolation operations in explicit style representations. Specifically, a new architecture consisting of two encoding pathways with style block connections is proposed to decompose the original hard mapping into multiple more accessible subtasks. In source pathway, we further extract component layouts with an off-the-shelf human parser and feed them into a shared global texture encoder for decomposed latent codes. This strategy allows for the synthesis of more realistic output images and automatic separation of un-annotated attributes. Experimental results demonstrate the proposed methods superiority over the state of the art in pose transfer and its effectiveness in the brand-new task of component attributes transfer.
+</p>
 			</div>
 					</div>
 
 
-		<div class="Supplemental Video sec">
-			<h2>Supplemental Video</h2>
-<div align="center">
-<iframe width="640" height="360" src="https://www.youtube.com/embed/FkFQ6bV1s-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<p style="text-align:center"> It is recommended to switch to 720p for better visual results. </p>
-</div>
 
+                <div class="overview sec">
+			<h2>Network</h2>
+			<div class="picture_wrapper2" align="center">
+
+		  		<img src="./ADGAN_files/generator.png" width="80%" alt="Teaser">
+		  		<p style="text-align: center">Fig.2 An overview of the network architecture of our generator. </p>
+	  		</div>
+	  	</div>
 
 
 		<div class="download sec">
 			<h2>Download</h2>
 			<div>
-				<li><strong>Paper</strong>: <a href="./DynTypo_files/Paper_DynTypo_CVPR19.pdf">pdf</a></li>
-                                                                <li><strong>Supplemental materials</strong>: <a href="./DynTypo_files/Supp_DynTypo_CVPR19.mp4">mp4</a></li>
-                                                                <li><strong>Datasets (Coming soom)</strong></li>				
+				<li><strong>Paper</strong>: <a href="./ADGAN_files/Paper_ADGAN_CVPR2020.pdf">pdf</a></li>
+                                                                <li><strong>Supplemental materials</strong>: <a href="./ADGAN_files/Supp_ADGAN_CVPR2020.pdf">pdf</a></li>
+                                                                <li><strong>Datasets</strong></li>				
                                                                 <li><strong>Code (Pending)</strong></li>
                                                                 
 
@@ -76,11 +88,26 @@ our method.</p>
 		<div class="experiments sec">
 			<h2>Experimental Results</h2>
 			<div id="images">
-				<h3>Dynamic Text Effects Transfer</h3>
+				
+				<h3>Component Attributes Transfer</h3>
+				<div align="center" id="table">
+					<td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Source B: other component attributes</td> <br>
+					<img src='./ADGAN_files/attributes.gif' width= '70%' > <br>
+				</div>
+
+<tr align="center">
+					<td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Source A: upper clothes</td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp                           <td>Results of combining A and B</td>
+
+
+				</tr>	
+
+<br>
+                                <h3>Pose Transfer</h3>
 				<div align="center" id="table">
 					
-					<img src='./DynTypo_files/DynTypo_result.png' width='100%' >
+					<img src='./ADGAN_files/pose.gif' width='100%' >
 				</div>
+                                
 			</div>
 		</div>
 		<br></br> 
@@ -88,13 +115,14 @@ our method.</p>
 
 
 
+
                                 <div class="citation sec">
 			<h2>Citation</h2>
-			<p class="bibtex">@inproceedings{men2019dyntypo,
-&nbsp; title={DynTypo: Example-based Dynamic Text Effects Transfer},
-&nbsp; author={Men, Yifang and Lian, Zhouhui and Tang, Yingmin and Xiao, Jianguo},
+			<p class="bibtex">@inproceedings{men2020controllable,
+&nbsp; title={Controllable Person Image Synthesis with Attribute-Decomposed GAN},
+&nbsp; author={Men, Yifang and Mao, Yiming and Jiang, Yuning and Ma, Wei-Ying and Lian, Zhouhui},
 &nbsp; booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-&nbsp; year={2019}
+&nbsp; year={2020}
 }
 			</p>
 		</div>

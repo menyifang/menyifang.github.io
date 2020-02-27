@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="language" content="english">
+<title>ADGAN</title>
+<meta name="description" content="Controllable Person Image Synthesis with Attribute-Decomposed GAN">
+<meta name="author" content="Yifang Men">
+<link rel="icon" type="image/x-icon" href="http://www.icst.pku.edu.cn/favicon.ico">
+<link rel="stylesheet" type="text/css" href="./ADGAN_files/project.css">
+</head>
+
+<body>
+<div id="main">
+  
+	<div class="content"><br>
+		<h1>Controllable Person Image Synthesis with Attribute-Decomposed GAN </h1>
+		<div class="authors">
+			<div class="author">
+				 <a href="https://menyifang.github.io/" style="text-decoration: none">Yifang Men</a>
+		                </div>
+
+                                                <div class="author">
+				 <a href="mailto:maoym@shanghaitech.edu.cn" style="text-decoration: none">Yiming Mao</a>
+			</div>
+
+                                                <div class="author">
+				 <a href="https://yuningjiang.github.io/" style="text-decoration: none">Yuning Jiang</a>
+			</div>
+                                                <div class="author">
+				 <a href="https://scholar.google.com/citations?user=SToCbu8AAAAJ&hl=en" style="text-decoration: none">Weiying Ma</a>
+			</div>
+		                <div class="author">
+				 <a href="http://www.icst.pku.edu.cn/zlian/" style="text-decoration: none">Zhouhui Lian</a>
+			</div>
+			
+	
+		</div>
+		<br>
+	  	<p class="banner" align="center"><em>Accepted by CVPR, June 2020. </em></p>
+		<div class="overview sec">
+			<div class="picture_wrapper">
+
+		  		<img src="./ADGAN_files/ADGAN_easer.png" width="50%" alt="Teaser">
+		  		<p style="text-align: left">Fig.1 Controllable person image synthesis with desired human attributes provided by multiple source images. Human attributes including pose and component attributes are embedded into the latent space as the pose code and decomposed style code. Target person images can be generated in user control with editable style code. </p>
+	  		</div>
+	  	</div>
+
+
+			
+
+
+
+
+
+
+		<div class="Abstract sec">
+			<h2>Abstract</h2>
+			<div class="desp">
+				<p style="text-align:justify">
+				This paper introduces Attribute-Decomposed GAN, a novel generative model for controllable person image synthesis, which can produce realistic person images with desired human attributes (e.g., pose, head, upper clothes and pants) provided in various source inputs. The core idea of the proposed model is to embed human attributes into the latent space as independent codes and thus achieve flexible and continuous control of attributes via mixing and interpolation operations in explicit style representations. Specifically, a new architecture consisting of two encoding pathways with style block connections is proposed to decompose the original hard mapping into multiple more accessible subtasks. In source pathway, we further extract component layouts with an off-the-shelf human parser and feed them into a shared global texture encoder for decomposed latent codes. This strategy allows for the synthesis of more realistic output images and automatic separation of un-annotated attributes. Experimental results demonstrate the proposed methods superiority over the state of the art in pose transfer and its effectiveness in the brand-new task of component attributes transfer.
+</p>
+			</div>
+					</div>
+
+
+
+                <div class="overview sec">
+			<h2>Network</h2>
+			<div class="picture_wrapper2" align="center">
+
+		  		<img src="./ADGAN_files/generator.png" width="80%" alt="Teaser">
+		  		<p style="text-align: center">Fig.2 An overview of the network architecture of our generator. </p>
+	  		</div>
+	  	</div>
+
+
+		<div class="download sec">
+			<h2>Download</h2>
+			<div>
+				<li><strong>Paper</strong>: <a href="./ADGAN_files/Paper_ADGAN_CVPR2020.pdf">pdf</a></li>
+                                                                <li><strong>Supplemental materials</strong>: <a href="./ADGAN_files/Supp_ADGAN_CVPR2020.pdf">pdf</a></li>
+                                                                <li><strong>Datasets</strong></li>				
+                                                                <li><strong>Code (Pending)</strong></li>
+                                                                
+
+			</div>
+		</div>
+
+		<div class="experiments sec">
+			<h2>Experimental Results</h2>
+			<div id="images">
+				
+				<h3>Component Attributes Transfer</h3>
+				<div align="center" id="table">
+					<td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Source B: other component attributes</td> <br>
+					<img src='./ADGAN_files/attributes.gif' width= '70%' > <br>
+				</div>
+
+<tr align="center">
+					<td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Source A: upper clothes</td> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp                           <td>Results of combining A and B</td>
+
+
+				</tr>	
+
+<br>
+                                <h3>Pose Transfer</h3>
+				<div align="center" id="table">
+					
+					<img src='./ADGAN_files/pose.gif' width='100%' >
+				</div>
+                                
+			</div>
+		</div>
+		<br></br> 
+
+
+
+
+
+                                <div class="citation sec">
+			<h2>Citation</h2>
+			<p class="bibtex">@inproceedings{men2020controllable,
+&nbsp; title={Controllable Person Image Synthesis with Attribute-Decomposed GAN},
+&nbsp; author={Men, Yifang and Mao, Yiming and Jiang, Yuning and Ma, Wei-Ying and Lian, Zhouhui},
+&nbsp; booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+&nbsp; year={2020}
+}
+			</p>
+		</div>
+
+
+
+<div align="center">
+<a href="https://menyifang.github.io/projects">=&gt; Back to main project page &lt;=</a>
+</div>
+
+  </div>
+</div>
+
+
+</body></html>
