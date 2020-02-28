@@ -14,7 +14,7 @@ Y. Men, Y. Mao, Y. Jiang, W. Ma and Z. Lian
 </p>
 
 <figure class="research-proj-img1">
-    <img src="/images/projects/ADGAN_easer.pdf" alt="" style="height: 180px; width:auto" border="0"/>
+    <img src="/images/projects/ADGAN_easer.gif" alt="" style="height: 180px; width:auto" border="0"/>
 </figure>
 <p style="font-size: 15px">This paper introduces Attribute-Decomposed GAN, a novel generative model for controllable person image synthesis, which can produce realistic person images with desired
 human attributes (e.g., pose, head, upper clothes and pants) provided in various source inputs.
