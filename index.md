@@ -26,7 +26,7 @@ My main interest lies in computer vision and graphics, including:
 My research projects are available at [**my project page**]({{ site.url }}/projects/).
 
 ### Publications
-* **Yifang Men**, Yiming Mao, Yuning Jiang, Wei-Ying Ma, Zhouhui Lian. "Controllable Person Image Synthesis with Attribute-Decomposed GAN", *Proc. of Computer Vision and Pattern Recognition (**CVPR**)* , Seattle, American, Jun. 2020.
+* **Yifang Men**, Yiming Mao, Yuning Jiang, Wei-Ying Ma, Zhouhui Lian. "Controllable Person Image Synthesis with Attribute-Decomposed GAN", *Proc. of Computer Vision and Pattern Recognition (**CVPR, Oral**)* , Seattle, American, Jun. 2020.
 
 * **Yifang Men**, Zhouhui Lian, Yingmin Tang, Jianguo Xiao. "DynTypo: Example-based Dynamic Text Effects Transfer", *Proc. of Computer Vision and Pattern Recognition (**CVPR**)* , Long Beach, American, Jun. 2019.
 
