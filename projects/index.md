@@ -20,7 +20,7 @@ Y. Men, Y. Mao, Y. Jiang, W. Ma and Z. Lian
 human attributes (e.g., pose, head, upper clothes and pants) provided in various source inputs.
 
 <br> <a href="https://menyifang.github.io/projects/ADGAN/ADGAN.html"><span class="label">Project Page</span></a>
-         <a href="https://menyifang.github.io/projects/ADGAN/ADGAN_files/Paper_ADGAN_CVPR2020.pdf"><span class="label">PDF coming soon</span></a>
+         <a href="https://menyifang.github.io/projects/ADGAN/ADGAN_files/Paper_ADGAN_CVPR2020.pdf"><span class="label">PDF</span></a>
           <a href="https://youtu.be/hstN3lOWVHg"><span class="label">Demo Video</span></a>
 </p>
 <br><br>
