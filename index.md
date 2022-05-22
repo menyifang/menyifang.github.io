@@ -21,9 +21,9 @@ I am a researcher at DAMO Academy, Alibaba Group. Before that, I graduated with 
 
 
 ### Publications
-* **Yifang Men**, Yuan Yao, Miaomiao Cui, Zhouhui Lian, Xuansong Xie. "DCT-Net: Domain-Calibrated Translation for Portrait Stylization", *ACM Transactions on Graphics (**SIGGRAPH 2022, Journal Track**)*, Vancouver, Canada, Aug. 2022.
+* **Yifang Men**, Yuan Yao, Miaomiao Cui, Zhouhui Lian, Xuansong Xie. "DCT-Net: Domain-Calibrated Translation for Portrait Stylization", *ACM Transactions on Graphics (**SIGGRAPH 2022, Journal track**)*, Vancouver, Canada, Aug. 2022.
 
-* Gu Pu*, Yifang Men*, Yiming Mao, Yuning Jiang, Wei-Ying Ma, Zhouhui Lian. "ADGAN++: Controllable Image Synthesis with Attribute-Decomposed GAN", *IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**)* , 2022. (* equal contribution)
+* Gu Pu#, Yifang Men#, Yiming Mao, Yuning Jiang, Wei-Ying Ma, Zhouhui Lian. "ADGAN++: Controllable Image Synthesis with Attribute-Decomposed GAN", *IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**)* , 2022. (# equal contribution)
 
 
 * **Yifang Men**, Yuan Yao, Miaomiao Cui, Zhouhui Lian, Xuansong Xie. "Unpaired Cartoon Image Synthesis via Gated Cycle Mapping", *Proc. of Computer Vision and Pattern Recognition (**CVPR**)* , New Orleans, American, Jun. 2022.
