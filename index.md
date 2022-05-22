@@ -5,16 +5,16 @@ excerpt: "Yifang Men's homepage"
 search_omit: true
 ---
 
-I am a Researcher at DAMO Academy, Alibaba Group. Before that, I graduated with M.S. degree in Computer Science from Peking University in 2020, and B.S. degree of Computer Science from Wuhan University in 2017. My research focuses on computer vision and deep learning, particularly on 2D&3D image synthesis. Projects are available at [*Project Page*]({{ site.url }}/projects/).
+I am a researcher at DAMO Academy, Alibaba Group. Before that, I graduated with M.S. degree in Computer Science from Peking University in 2020, and B.S. degree of Computer Science from Wuhan University in 2017. My research focuses on computer vision and deep learning, particularly on 2D&3D image synthesis. Projects are available at [*Project Page*]({{ site.url }}/projects/).
 
 
 ### Experiences
 * Researcher at DAMO Academy, Alibaba Group (07/2020 - current)
+* Research Intern at Visual Computing Group, ByteDance AI Lab (06/2019 - 11/2019)\\
+  Mentor: [*Yuning Jiang*](https://yuningjiang.github.io/)
 * Master Degree in Computer Science (09/2017 - 07/2020)\\
   Institute of Computer Science and Technology, Peking University\\
   Advised by [*Prof. Zhouhui Lian*](http://www.icst.pku.edu.cn/zlian/)
-* Research Intern at Visual Computing Group, ByteDance AI Lab (06/2019 - 11/2019)\\
-  Mentor: [*Yuning Jiang*](https://yuningjiang.github.io/)
 * Bachelor's Degree in Computer Science (09/2013 - 06/2017)\\
   School of Computer Science, Wuhan University
 
@@ -23,7 +23,7 @@ I am a Researcher at DAMO Academy, Alibaba Group. Before that, I graduated with 
 ### Publications
 * **Yifang Men**, Yuan Yao, Miaomiao Cui, Zhouhui Lian, Xuansong Xie. "DCT-Net: Domain-Calibrated Translation for Portrait Stylization", *ACM Transactions on Graphics (**SIGGRAPH 2022, Journal Track**)*, Vancouver, Canada, Aug. 2022.
 
-* Gu Pu<sup>*</sup>, **Yifang Men<sup>*</sup>**, Yiming Mao, Yuning Jiang, Wei-Ying Ma, Zhouhui Lian. "ADGAN++: Controllable Image Synthesis with Attribute-Decomposed GAN", *IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**)* , 2022. (<sup>*</sup> equal contribution)
+* Gu Pu*, Yifang Men*, Yiming Mao, Yuning Jiang, Wei-Ying Ma, Zhouhui Lian. "ADGAN++: Controllable Image Synthesis with Attribute-Decomposed GAN", *IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**)* , 2022. (* equal contribution)
 
 
 * **Yifang Men**, Yuan Yao, Miaomiao Cui, Zhouhui Lian, Xuansong Xie. "Unpaired Cartoon Image Synthesis via Gated Cycle Mapping", *Proc. of Computer Vision and Pattern Recognition (**CVPR**)* , New Orleans, American, Jun. 2022.
