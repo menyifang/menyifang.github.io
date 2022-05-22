@@ -5,34 +5,42 @@ excerpt: "Yifang Men's homepage"
 search_omit: true
 ---
 
-I am Yifang Men, currently a master student in the Wangxuan Institute of Computer Technology ([**WICT**](http://www.icst.pku.edu.cn)), Peking University. I'm a member of the [**CSCL**](http://59.108.48.27/cscl/) group at the Institute of Computer Science and Technology. 
+I am a Researcher at DAMO Academy, Alibaba Group. Before that, I graduated with M.S. degree in Computer Science from Peking University in 2020, and B.S. degree of Computer Science from Wuhan University in 2017. My research focuses on computer vision and deep learning, particularly on 2D&3D image synthesis. Projects are available at [*Project Page*]({{ site.url }}/projects/).
+
 
 ### Experiences
-* Master Condidate in Computer Science (09/2017 - current)\\
+* Researcher at DAMO Academy, Alibaba Group (07/2020 - current)
+* Master Degree in Computer Science (09/2017 - 07/2020)\\
   Institute of Computer Science and Technology, Peking University\\
   Advised by [*Prof. Zhouhui Lian*](http://www.icst.pku.edu.cn/zlian/)
+* Research Intern at Visual Computing Group, ByteDance AI Lab (06/2019 - 11/2019)\\
+  Mentor: [*Yuning Jiang*](https://yuningjiang.github.io/)
 * Bachelor's Degree in Computer Science (09/2013 - 06/2017)\\
   School of Computer Science, Wuhan University
-* Research Intern at Visual Computing Group, ByteDance AI Lab (06/2019 - 11/2019)\\
-  Mentor: [*Yuning Jiang*](https://yuningjiang.github.io/) (Research Scientist)
 
-### Research
-My main interest lies in computer vision and graphics, including:
 
-* Image Synthesis (Conventional and Deep Generative Models)
-* Style Transfer and Deep Learning
-* Intelligent Media Creation
-
-My research projects are available at [**my project page**]({{ site.url }}/projects/).
 
 ### Publications
-* **Yifang Men**, Yiming Mao, Yuning Jiang, Wei-Ying Ma, Zhouhui Lian. "Controllable Person Image Synthesis with Attribute-Decomposed GAN", *Proc. of Computer Vision and Pattern Recognition (**CVPR, Oral**)* , Seattle, American, Jun. 2020.
+* **Yifang Men**, Yuan Yao, Miaomiao Cui, Zhouhui Lian, Xuansong Xie. "DCT-Net: Domain-Calibrated Translation for Portrait Stylization", *ACM Transactions on Graphics (**SIGGRAPH 2022, Journal Track**)*, Vancouver, Canada, Aug. 2022.
+
+* Gu Pu<sup>*</sup>, **Yifang Men<sup>*</sup>**, Yiming Mao, Yuning Jiang, Wei-Ying Ma, Zhouhui Lian. "ADGAN++: Controllable Image Synthesis with Attribute-Decomposed GAN", *IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**)* , 2022. (<sup>*</sup> equal contribution)
+
+
+* **Yifang Men**, Yuan Yao, Miaomiao Cui, Zhouhui Lian, Xuansong Xie. "Unpaired Cartoon Image Synthesis via Gated Cycle Mapping", *Proc. of Computer Vision and Pattern Recognition (**CVPR**)* , New Orleans, American, Jun. 2022.
+
+
+* **Yifang Men**, Yiming Mao, Yuning Jiang, Wei-Ying Ma, Zhouhui Lian. "ADGAN: Controllable Person Image Synthesis with Attribute-Decomposed GAN", *Proc. of Computer Vision and Pattern Recognition (**CVPR, Oral**)* , Seattle, American, Jun. 2020.
 
 * **Yifang Men**, Zhouhui Lian, Yingmin Tang, Jianguo Xiao. "DynTypo: Example-based Dynamic Text Effects Transfer", *Proc. of Computer Vision and Pattern Recognition (**CVPR**)* , Long Beach, American, Jun. 2019.
 
 * **Yifang Men**, Zhouhui Lian, Yingmin Tang, Jianguo Xiao. "A Common Framework for Interactive Texture Transfer", *Proc. of Computer Vision and Pattern Recognition (**CVPR**)* (Accepted as **spotlight, Top 7% Papers**), Salt Lake City, American, Jun. 2018.
 
 * Haojun Ai, **Yifang Men**, Liangliang Han, Zuchao Li, Mengyun Liu. "High precision gesture sensing via quantitative characterization of the Doppler effect", *Proc. of International Conference on Pattern Recognition (**ICPR**)*, Cacun, Mexico, Dec. 2016.
+
+
+### Academic Services
+* Reviewers: TPAMI, SIGGRAPH, SIGGRAPH Asia, CVPR, ICCV
+
 
 ### Selected Patents
 
@@ -50,12 +58,14 @@ Author: Haojun Ai, Yifang Men.
 
 
 ### Selected Awards
-* Huawei Scholarship, Peking University, 2018
-* Outstanding Graduates of Wuhan University, 2017
-* Meritorious Winner of Interdisciplinary Contest In Modeling (ICM), Global, 2016
-* Second Prize of Asia and Pacific Mathematical Contest in Modeling, China, 2015
+* Excellent Dissertation Award, 2020
+* Schlumberger Scholarship, 2019
+* Huawei Scholarship, 2018
+* Outstanding Graduates, 2017
+* Meritorious Winner of Interdisciplinary Contest In Modeling (ICM), 2016
+* Second Prize of Asia and Pacific Mathematical Contest in Modeling, 2015
 * First Prize in the IBM Cup Web Page Design Competition, 2014
-* National Scholarship for Undergraduate, 2014
+* National Scholarship, 2014
 
 ### Contact Me
 * Email: yifangmen AT pku.edu.cn
