@@ -14,7 +14,7 @@ Y. Men, Y. Yao, M. Cui, Z. Lian and X. Xie
 </p>
 
 <figure class="research-proj-img1">
-    <img src="/images/projects/DCTNet_teaser.jpg" alt="" style="height: 180px; width:auto" border="0"/>
+    <img src="/images/projects/DCTNet_teaser.jpg" alt="" style="height: 200px; width:auto" border="0"/>
 </figure>
 <p style="font-size: 15px">
 This paper introduces DCT-Net, a novel image translation architecture for few-shot portrait stylization, enabling advanced ability to high-preserving contents, strong generality to complicated real-world scenes, and high scalability to full-body translation with only head observations.
