@@ -10,15 +10,19 @@ excerpt: “Yifang Men’s Projects."
 <h4>DCT-Net: Domain-Calibrated Translation for Portrait Stylization</h4>
 <p style="font-size: 15px">
 SIGGRAPH 2022 (TOG)<br>
-Y. Men, Y. Yao, M. Cui, Z. Lian, X. Xie
+Y. Men, Y. Yao, M. Cui, Z. Lian and X. Xie
 </p>
 
 <figure class="research-proj-img1">
     <img src="/images/projects/DCTNet_teaser.jpg" alt="" style="height: 180px; width:auto" border="0"/>
 </figure>
+<p style="font-size: 15px">
+This paper introduces DCT-Net, a novel image translation architecture for few-shot portrait stylization, enabling advanced ability to high-preserving contents, strong generality to complicated real-world scenes, and high scalability to full-body translation with only head observations.
+
 <br> <a href="https://menyifang.github.io/projects/DCTNet/DCTNet.html"><span class="label">Project Page</span></a>
-         <a href="https://menyifang.github.io/projects/DCTNet/DCTNet_files/Paper_DCTNet_TOG2022.pdf"><span class="label">PDF</span></a>
-          <a href="coming soon"><span class="label">Demo Video</span></a>
+         <a href="arxiv_coming_soon"><span class="label">PDF</span></a>
+         <a href="https://github.com/menyifang/DCT-Net"><span class="label">Code</span></a>
+          <a href="https://www.youtube.com/watch?v=Y8BrfOjXYQM"><span class="label">Demo Video</span></a>
 </p>
 <br><br>
 
@@ -31,9 +35,12 @@ Y. Men, Y. Yao, M. Cui, Z. Lian, X. Xie and X. Hua
 <figure class="research-proj-img1">
     <img src="/images/projects/UCIS_teaser.gif" alt="" style="height: 180px; width:auto" border="0"/>
 </figure>
+<p style="font-size: 15px">
+A common cartoon translator which can not only simultaneously render exaggerated anime faces and realistic cartoon scenes, but also provide flexible user controls for desired cartoon styles.
+
 <br> <a href="https://menyifang.github.io/projects/UCIS/UCIS.html"><span class="label">Project Page</span></a>
-         <a href="https://menyifang.github.io/projects/UCIS/UCIS_files/Paper_UCIS_CVPR2022.pdf"><span class="label">PDF</span></a>
-          <a href="coming soon"><span class="label">Demo Video</span></a>
+         <a href="arxiv_coming soon"><span class="label">PDF</span></a>
+          <a href="https://www.youtube.com/watch?v=USScq2tHQrQ"><span class="label">Demo Video</span></a>
 </p>
 <br><br>
 
@@ -51,6 +58,7 @@ human attributes (e.g., pose, head, upper clothes and pants) provided in various
 
 <br> <a href="https://menyifang.github.io/projects/ADGAN/ADGAN.html"><span class="label">Project Page</span></a>
          <a href="https://menyifang.github.io/projects/ADGAN/ADGAN_files/Paper_ADGAN_CVPR2020.pdf"><span class="label">PDF</span></a>
+         <a href="https://github.com/menyifang/ADGAN"><span class="label">Code</span></a>
           <a href="https://youtu.be/hstN3lOWVHg"><span class="label">Demo Video</span></a>
 </p>
 <br><br>
