@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="language" content="english">
+<title>UCIS</title>
+<meta name="description" content="Unpaired Cartoon Image Synthesis via Gated Cycle Mapping">
+<meta name="author" content="Yifang Men">
+<link rel="icon" type="image/x-icon" href="http://www.icst.pku.edu.cn/favicon.ico">
+<link rel="stylesheet" type="text/css" href="./UCIS_files/project.css">
+</head>
+
+<body>
+<div id="main">
+  
+	<div class="content"><br>
+		<h1>Unpaired Cartoon Image Synthesis via Gated Cycle Mapping </h1>
+		<div class="authors">
+			<div class="author">
+				 <a href="https://menyifang.github.io/" style="text-decoration: none">Yifang Men</a>
+		                </div>
+
+                                                <div class="author">
+				 <a href="mailto:yaoy92@gmail.com" style="text-decoration: none">Yuan Yao</a>
+			</div>
+
+                                                <div class="author">
+				 <a href="mailto:miaomiao.cmm@alibaba-inc.com" style="text-decoration: none">Miaomiao Cui</a>
+			</div>
+                                                <div class="author">
+				 <a href="http://www.icst.pku.edu.cn/zlian/" style="text-decoration: none">Zhouhui Lian</a>
+			</div>
+		                <div class="author">
+				 <a href="https://scholar.google.com/citations?user=M0Ei1zkAAAAJ&hl=en" style="text-decoration: none">Xuansong Xie</a>
+			</div><div class="author">
+                <a href="https://scholar.google.com/citations?user=6G-l4o0AAAAJ&hl=zh-CN" style="text-decoration: none">Xian-Sheng Hua</a>
+           </div>
+			
+	
+		</div>
+		<br>
+	  	<p class="banner" align="center"><em>Accepted by CVPR, June 2022. </em></p>
+		<div class="overview sec">
+			<div class="picture_wrapper">
+                <img src="./UCIS_files/UCIS_teaser.png" width="100%" alt="Teaser">
+		  		<p style="text-align: left">Fig.1 The proposed unpaired cartoon image synthesis method is able to convert diverse source photos (portrait in left, scene in right)
+                into cartoon images with controllable cartoon styles as the corresponding exemplars. </p>
+	  		</div>
+	  	</div>
+
+
+			
+
+
+
+
+
+
+		<div class="Abstract sec">
+			<h2>Abstract</h2>
+			<div class="desp">
+				<p style="text-align:justify">
+                In this paper, we present a general-purpose solution to cartoon image synthesis with unpaired training data. In contrast to previous works learning pre-defined cartoon styles for specified usage scenarios (portrait or scene), we aim to train a common cartoon translator which can not only simultaneously render exaggerated anime faces and realistic cartoon scenes, but also provide flexible user controls for desired cartoon styles. It is challenging due to the complexity of the task and the absence of paired data. The core idea of the proposed method is to introduce gated cycle mapping, that utilizes a novel gated mapping unit to produce the category-specific style code and embeds this code into cycle networks to control the translation process. For the concept of category, we classify images into different categories (e.g., 4 types: photo/cartoon portrait/scene) and learn finer-grained category translations rather than overall mappings between two domains (e.g., photo and cartoon). Furthermore, the proposed method can be easily extended to cartoon video generation with an auxiliary dataset and a new adaptive style loss. Experimental results demonstrate the superiority of the proposed method over the state of the art and validate its effectiveness in the brand-new task of general cartoon image synthesis.
+</p>
+			</div>
+					</div>
+
+
+
+                <div class="overview sec">
+			<h2>Networks</h2>
+			<div class="picture_wrapper2" align="center">
+
+		  		<img src="./UCIS_files/networks.png" width="80%" alt="Teaser">
+		  		<p style="text-align: center">Fig.2 An overview of the network architecture. </p>
+	  		</div>
+	  	</div>
+
+
+		<div class="download sec">
+			<h2>Download (all coming soon)</h2>
+			<div>
+				<li><strong>Paper</strong>: <a href="coming soon">arxiv</a></li>
+                                                                <li><strong>Supplemental materials</strong>: <a href="./UCIS_files/Supp_UCIS_CVPR2022.pdf">pdf</a></li>
+                                                                <li><strong>Video</strong>: <a href="coming soon">mp4</a></li>
+                                                                <li><strong>Extension</strong>: <a href="https://menyifang.github.io/projects/DCTNet/DCTNet.html">project</a></li>
+
+                                                                
+                                                                
+
+			</div>
+		</div>
+        
+        <div class="Demp Video sec">
+            <h2>Demo Video</h2>
+<div align="center">
+<iframe width="640" height="360" src="coming soon" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+        
+
+
+        <div class="Abstract sec">
+            <h2>Related Links</h2>
+            <div class="desp">
+                <p style="text-align:justify">
+                <a href="https://menyifang.github.io/projects/DCTNet/DCTNet.html">DCT-Net: Domain-Calibrated Translation for Portrait Stylization.</a>
+                &nbsp;&nbsp;A further work with all-around advanced abilities.
+                
+</p>
+            </div>
+                    </div>
+
+
+                                <div class="citation sec">
+			<h2>Citation</h2>
+			<p class="bibtex">@inproceedings{men2022unpaired,
+&nbsp; title={Unpaired Cartoon Image Synthesis via Gated Cycle Mapping},
+&nbsp; author={Men, Yifang and Yao, Yuan and Cui, Miaomiao and Lian, Zhouhui and Xie, Xuansong and Xian-Sheng, Hua},
+&nbsp; booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+&nbsp; year={2022}
+}
+			</p>
+		</div>
+
+
+
+<div align="center">
+<a href="https://menyifang.github.io/projects">=&gt; Back to main project page &lt;=</a>
+</div>
+
+  </div>
+</div>
+
+
+</body></html>

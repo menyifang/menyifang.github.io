@@ -1,4 +1,4 @@
-﻿---
+---
 layout: plainpage
 title: Projects
 excerpt: “Yifang Men’s Projects."
@@ -6,6 +6,36 @@ excerpt: “Yifang Men’s Projects."
 
 
 <h2>Research Projects</h2>
+
+<h4>DCT-Net: Domain-Calibrated Translation for Portrait Stylization</h4>
+<p style="font-size: 15px">
+SIGGRAPH 2022 (TOG)<br>
+Y. Men, Y. Yao, M. Cui, Z. Lian, X. Xie
+</p>
+
+<figure class="research-proj-img1">
+    <img src="/images/projects/DCTNet_teaser.jpg" alt="" style="height: 180px; width:auto" border="0"/>
+</figure>
+<br> <a href="https://menyifang.github.io/projects/DCTNet/DCTNet.html"><span class="label">Project Page</span></a>
+         <a href="https://menyifang.github.io/projects/DCTNet/DCTNet_files/Paper_DCTNet_TOG2022.pdf"><span class="label">PDF</span></a>
+          <a href="coming soon"><span class="label">Demo Video</span></a>
+</p>
+<br><br>
+
+<h4>Unpaired Cartoon Image Synthesis via Gated Cycle Mapping</h4>
+<p style="font-size: 15px">
+CVPR 2022<br>
+Y. Men, Y. Yao, M. Cui, Z. Lian, X. Xie and X. Hua
+</p>
+
+<figure class="research-proj-img1">
+    <img src="/images/projects/UCIS_teaser.gif" alt="" style="height: 180px; width:auto" border="0"/>
+</figure>
+<br> <a href="https://menyifang.github.io/projects/UCIS/UCIS.html"><span class="label">Project Page</span></a>
+         <a href="https://menyifang.github.io/projects/UCIS/UCIS_files/Paper_UCIS_CVPR2022.pdf"><span class="label">PDF</span></a>
+          <a href="coming soon"><span class="label">Demo Video</span></a>
+</p>
+<br><br>
 
 <h4>Controllable Person Image Synthesis with Attribute-Decomposed GAN</h4>
 <p style="font-size: 15px">
