@@ -39,7 +39,7 @@ Y. Men, Y. Yao, M. Cui, Z. Lian, X. Xie and X. Hua
 A common cartoon translator which can not only simultaneously render exaggerated anime faces and realistic cartoon scenes, but also provide flexible user controls for desired cartoon styles.
 
 <br> <a href="https://menyifang.github.io/projects/UCIS/UCIS.html"><span class="label">Project Page</span></a>
-         <a href="arxiv_coming soon"><span class="label">PDF</span></a>
+         <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Men_Unpaired_Cartoon_Image_Synthesis_via_Gated_Cycle_Mapping_CVPR_2022_paper.pdf"><span class="label">PDF</span></a>
           <a href="https://www.youtube.com/watch?v=USScq2tHQrQ"><span class="label">Demo Video</span></a>
 </p>
 <br><br>
