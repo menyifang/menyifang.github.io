@@ -20,7 +20,7 @@ Y. Men, Y. Yao, M. Cui, Z. Lian and X. Xie
 This paper introduces DCT-Net, a novel image translation architecture for few-shot portrait stylization, enabling advanced ability to high-preserving contents, strong generality to complicated real-world scenes, and high scalability to full-body translation with only head observations.
 
 <br> <a href="https://menyifang.github.io/projects/DCTNet/DCTNet.html"><span class="label">Project Page</span></a>
-         <a href="arxiv_coming_soon"><span class="label">PDF</span></a>
+         <a href="http://arxiv.org/abs/2207.02426"><span class="label">Paper</span></a>
          <a href="https://github.com/menyifang/DCT-Net"><span class="label">Code</span></a>
           <a href="https://www.youtube.com/watch?v=Y8BrfOjXYQM"><span class="label">Demo Video</span></a>
 </p>
