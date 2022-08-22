@@ -45,6 +45,36 @@
 
 
         
+        <div class="Abstract sec">
+            <h2>Abstract</h2>
+            <div class="desp">
+                <p style="text-align:justify">
+                This paper introduces DCT-Net, a novel image translation architecture for few-shot portrait stylization. Given limited style exemplars (∼100), the new architecture can produce high-quality style transfer results with advanced ability to synthesize high-fidelity contents and strong generality to handle complicated scenes (e.g., occlusions and accessories). Moreover, it enables full-body image translation via one elegant evaluation network trained by partial observations (i.e., stylized heads). Few-shot learning based style transfer is challenging since the learned model can easily become overfitted in the target domain, due to the biased distribution formed by only a few training examples. This paper aims to handle the challenge by adopting the key idea of "calibration first, translation later" and exploring the augmented global structure with locally-focused translation. Specifically, the proposed DCT-Net consists of three modules: a content adapter borrowing the powerful prior from source photos to calibrate the content distribution of target samples; a geometry expansion module using affine transformations to release spatially semantic constraints; and a texture translation module leveraging samples produced by the calibrated distribution to learn a fine-grained conversion. Experimental results demonstrate the proposed method's superiority over the state of the art in head stylization and its effectiveness on full image translation with adaptive deformations.
+</p>
+            </div>
+                    </div>
+
+
+
+                <div class="overview sec">
+            <h2>Core idea</h2>
+            <div class="picture_wrapper2" align="center">
+
+                  <img src="./DCTNet_files/overview.png" width="50%" alt="Teaser">
+                  <p style="text-align: center">Fig.2 An illustration of domain-calibrated translation. </p>
+              </div>
+          </div>
+
+
+                <div class="network sec">
+            <h2>Networks</h2>
+            <div class="picture_wrapper" align="center">
+
+                  <img src="./DCTNet_files/network.png" width="50%" alt="Teaser">
+                  <p style="text-align: center">Fig.3 An overview of the proposed framework. </p>
+              </div>
+          </div>
+
 
 
 
@@ -81,11 +111,10 @@
 &nbsp; number={4},
 &nbsp; pages={1--9},
 &nbsp; year={2022},
-&nbsp; publisher={ACM Vancouver, BC, Canada}
+&nbsp; publisher={ACM New York, NY, USA}
 }
 			</p>
 		</div>
-
 
 
 <div align="center">
