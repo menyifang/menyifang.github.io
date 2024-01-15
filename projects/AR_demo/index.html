@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="language" content="english">
+<title>AR Demo</title>
+<meta name="description" content="En3D">
+<meta name="author" content="Yifang Men">
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+<style >
+    model-viewer{
+        height: 400px;
+        margin: 0 auto;
+    }
+    .preload img{
+        height:400px;
+    }
+</style>
+</head>
+
+<body>
+    <h1 align="center">AR Demos</h1>
+
+    <model-viewer src="assets/animation_Curry.glb" camera-controls ar shadow-intensity="1" ios-src="assets/animation_Curry.usdz"></model-viewer>
+    <model-viewer src="assets/animation_SpiderMan.glb" camera-controls ar shadow-intensity="1" ios-src="assets/animation_SpiderMan.usdz"></model-viewer>
+    <model-viewer src="assets/animation_woman1.glb" camera-controls ar shadow-intensity="1" ios-src="assets/animation_woman1.usdz"></model-viewer>
+    <model-viewer src="assets/animation_woman.glb" camera-controls ar shadow-intensity="1" ios-src="assets/animation_woman.usdz"></model-viewer>
+
+
+</body></html>
