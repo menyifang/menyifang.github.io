@@ -1,0 +1,694 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Yifang Men</title>
+
+    <meta name="author" content="Yifang Men">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Yifang Men
+                </p>
+                <p>I am an AI Researcher at Alibaba TongYi Lab</a>. I graduated with M.S. degree in Computer Science from <a href="https://english.pku.edu.cn/">Peking University</a> in 2020 and B.S. degree from <a href="https://en.whu.edu.cn/">Wuhan University</a> in 2017.
+                </p>
+                <p>
+                  My research focuses on computer vision and deep learning, particularly on generative AI models for 2D and 3D contents.
+                </p>
+                <p>
+                  We are now recruiting for Summer Internships, and positions for Research Interns (RI) are continuously open for applications. Welcome to contact me with your CV and research statement!
+                </p>
+
+                <p style="text-align:center">
+                  <a href="mailto:yifangmen@pku.edu.cn">Email</a> &nbsp/&nbsp
+                  <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp/&nbsp -->
+                  <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp/&nbsp -->
+                  <a href="https://scholar.google.com/citations?user=nbM81joAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+                  <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp/&nbsp -->
+                  <a href="https://github.com/menyifang">Github</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:32%;max-width:32%">
+                <a href="images/mengyifang.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/menyifang.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>Publications</h2>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+    <!--  En3D  -->
+    <tr onmouseout="en3d_stop()" onmouseover="en3d_start()" bgcolor="#ffffd0">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='en3d_image'><video  width=100% muted autoplay loop>
+          <source src="images/en3d.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/en3d.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function en3d_start() {
+            document.getElementById('en3d_image').style.opacity = "1";
+          }
+
+          function en3d_stop() {
+            document.getElementById('en3d_image').style.opacity = "0";
+          }
+        en3d_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://menyifang.github.io/projects/En3D/index.html">
+          <span class="papertitle">En3D: An Enhanced Generative Model for Sculpting 3D Humans from 2D Synthetic Data</span>
+        </a>
+        <br>
+        <strong>Yifang Men</strong>,
+		Biwen Lei,
+		Yuan Yao,
+		Miaomiao Cui,
+		Zhouhui Lian,
+        Xuansong Xie
+        <br>
+        <em>CVPR</em>, 2024
+        <br>
+        <a href="https://menyifang.github.io/projects/En3D/index.html">project page</a>
+        /
+        <a href="https://arxiv.org/abs/2401.01173">paper</a>
+        /
+        <a href="https://www.youtube.com/watch?v=YxMjaKgGdCc&t=5s">video</a>
+        /
+        <a href="https://github.com/menyifang/En3D">code</a>
+        <p></p>
+        <p>
+        A 3D generative model trained on millions of synthetic 2D images, which doesn't rely on any pre-existing 3D or 2D assets, but capable of producing visually realistic 3D humans with diverse contents.
+        </p>
+      </td>
+    </tr>
+    
+<!--  3DToonify   -->
+    <tr onmouseout="toonify_stop()" onmouseover="toonify_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='toonify_image'><video  width=100% muted autoplay loop>
+          <source src="images/toonify.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/toonify.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function toonify_start() {
+            document.getElementById('toonify_image').style.opacity = "1";
+          }
+
+          function toonify_stop() {
+            document.getElementById('toonify_image').style.opacity = "0";
+          }
+        toonify_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://coming_soon">
+          <span class="papertitle">3DToonify: Creating Your High-Fidelity 3D Stylized Avatar Easily from 2D Portrait Images</span>
+        </a>
+        <br>
+        <strong>Yifang Men*</strong>,
+        Hanxi Liu*,
+        Yuan Yao,
+        Miaomiao Cui,
+        Xuansong Xie,
+        Zhouhui Lian
+        <br>
+        <em>CVPR</em>, 2024
+        <br>
+        <a href="https://coming_soon">project page</a>
+        /
+        <a href="https://coming_soon">video</a>
+        /
+        <a href="http://coming_soon">arXiv</a>
+        <p></p>
+        <p>
+        Given a set of RGB portrait images captured by a monocular camera, our method can learn a photorealistic representation in neural implicit fields, and transfer it to artistic ones with underlying 3D structures changed.
+        </p>
+      </td>
+    </tr>
+    
+    <!--  Your3dEmoji   -->
+    <tr onmouseout="Your3dEmoji_stop()" onmouseover="Your3dEmoji_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='Your3dEmoji_image'><video  width=100% muted autoplay loop>
+              <source src="images/Your3dEmoji.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video></div>
+              <img src='images/Your3dEmoji.png' width=100%>
+            </div>
+            <script type="text/javascript">
+              function Your3dEmoji_start() {
+                document.getElementById('Your3dEmoji_image').style.opacity = "1";
+              }
+
+              function Your3dEmoji_stop() {
+                document.getElementById('Your3dEmoji_image').style.opacity = "0";
+              }
+            Your3dEmoji_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://xusy2333.com/">
+              <span class="papertitle">Your3dEmoji: Creating Personalized Emojis via One-shot 3D-aware Cartoon Avatar Synthesis</span>
+            </a>
+            <br>
+            Shiyao Xu,
+            Lingzhi Li,
+            Li Shen,
+            <strong>Yifang Men</strong>,
+            Zhouhui Lian
+            <br>
+            <em>SIGGRAPH Asia, 2022</em> (Technical Communication)
+            <br>
+            <a href="https://xusy2333.com/">project page</a>
+            /
+            <a href="https://xusy2333.com/paper/Your3dEmoji.pdf">paper</a>
+            /
+            <a href="https://github.com/41xu/Your3dEmoji">code</a>
+            <p></p>
+            <p>
+            A 3D generative model to translate a real-world face image into its corresponding 3D avatar with only a single style example provided. The model is 3D-aware in sense and also able to do attribute editing, such as smile, age, etc directly in the 3D domain.
+            </p>
+          </td>
+    </tr>
+    
+    <!--  DCTNET  -->
+    <tr onmouseout="dctnet_stop()" onmouseover="dctnet_start()" bgcolor="#ffffd0">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='dctnet_image'><video  width=100% muted autoplay loop>
+          <source src="images/dctnet.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/dctnet.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function dctnet_start() {
+            document.getElementById('dctnet_image').style.opacity = "1";
+          }
+
+          function dctnet_stop() {
+            document.getElementById('dctnet_image').style.opacity = "0";
+          }
+        dctnet_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://menyifang.github.io/projects/En3D/index.html">
+          <span class="papertitle">DCT-Net: Domain-Calibrated Translation for Portrait Stylization</span>
+        </a>
+        <br>
+        <strong>Yifang Men</strong>,
+        Yuan Yao,
+        Miaomiao Cui,
+        Zhouhui Lian,
+        Xuansong Xie,
+        <br>
+        <em>SIGGRAPH, 2022</em> (Journal Track, TOG)
+        <br>
+        <a href="https://menyifang.github.io/projects/En3D/index.html">project page</a>
+        /
+        <a href="https://arxiv.org/abs/2401.01173">paper</a>
+        /
+        <a href="https://www.youtube.com/watch?v=YxMjaKgGdCc&t=5s">video</a>
+        /
+        <a href="https://github.com/menyifang/En3D">code</a>
+        <p></p>
+        <p>
+        DCT-Net is a novel image translation architecture for few-shot portrait stylization. It enables advanced ability to high-preserving contents, strong generality to complicated real-world scenes, and high scalability to full-body translation with only head observations.
+        </p>
+      </td>
+    </tr>
+    
+
+    <!--  ADGAN++  -->
+    <tr onmouseout="adganpp_stop()" onmouseover="adganpp_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='adganpp_image'><video  width=100% muted autoplay loop>
+          <source src="images/adganpp.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/adganpp.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function adganpp_start() {
+            document.getElementById('adganpp_image').style.opacity = "1";
+          }
+
+          function adganpp_stop() {
+            document.getElementById('adganpp_image').style.opacity = "0";
+          }
+        adganpp_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://menyifang.github.io/projects/ADGAN/ADGAN.html">
+          <span class="papertitle">ADGAN++: Controllable Image Synthesis with Attribute-Decomposed GAN</span>
+        </a>
+        <br>
+        Guo Pu*,
+        <strong>Yifang Men*</strong>,
+        Yiming Mao,
+        Yuning Jiang,
+        Wei-Ying Ma,
+        Zhouhui Lian
+        <br>
+        <em>TPAMI</em>, 2022
+        <br>
+        <a href="https://menyifang.github.io/projects/ADGAN/ADGAN.html">project page</a>
+        /
+        <a href="https://ieeexplore.ieee.org/document/9741362">paper</a>
+        /
+        <a href="https://github.com/menyifang/ADGAN">code</a>
+        <p></p>
+        <p>
+        A generative model to produce realistic images with desired controllable attributes provided in various source inputs.
+        
+        </p>
+      </td>
+    </tr>
+    
+    
+   
+    
+    
+    
+    
+    <!--  UCIS  -->
+<tr onmouseout="ucis_stop()" onmouseover="ucis_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+    <div class="two" id='ucis_image'><video  width=100% muted autoplay loop>
+    <source src="images/ucis.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video></div>
+      <img src='images/ucis.jpg' width="160">
+    </div>
+    <script type="text/javascript">
+      function ucis_start() {
+        document.getElementById('ucis_image').style.opacity = "1";
+      }
+
+      function ucis_stop() {
+        document.getElementById('ucis_image').style.opacity = "0";
+      }
+    ucis_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://menyifang.github.io/projects/UCIS/UCIS.html">
+      <span class="papertitle">Unpaired Cartoon Image Synthesis via Gated Cycle Mapping
+</span>
+    </a>
+    <br>
+    <strong>Yifang Men</strong>,
+    Yuan Yao,
+    Miaomiao Cui,
+    Zhouhui Lian,
+    Xuansong Xie,
+    Xian-Sheng Hua
+    <br>
+    <em>CVPR, 2022</em>
+    <br>
+    <a href="https://menyifang.github.io/projects/UCIS/UCIS.html">project page</a>
+    /
+    <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Men_Unpaired_Cartoon_Image_Synthesis_via_Gated_Cycle_Mapping_CVPR_2022_paper.pdf">paper</a>
+    /
+    <a href="https://www.youtube.com/watch?v=USScq2tHQrQ">video</a>
+    <p></p>
+    <p>
+    A common cartoon translator which can not only simultaneously render exaggerated anime faces and realistic cartoon scenes, but also provide flexible user controls for desired cartoon styles.
+    </p>
+  </td>
+</tr>          
+
+
+<!--  ADGAN  -->
+    <tr onmouseout="adgan_stop()" onmouseover="adgan_start()" bgcolor="#ffffd0">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+            <div class="two" id='adgan_image'><video  width=100% muted autoplay loop>
+          <source src="images/adgan.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/adgan.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function adgan_start() {
+            document.getElementById('adgan_image').style.opacity = "1";
+          }
+
+          function adgan_stop() {
+            document.getElementById('adgan_image').style.opacity = "0";
+          }
+        adgan_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://menyifang.github.io/projects/ADGAN/ADGAN.html">
+          <span class="papertitle">ADGAN: Controllable Person Image Synthesis with Attribute-Decomposed GAN</span>
+        </a>
+        <br>
+        <strong>Yifang Men</strong>,
+        Yiming Mao,
+        Yuning Jiang,
+        Wei-Ying Ma,
+        Zhouhui Lian
+        <br>
+        <em>CVPR, 2020</em> <font color="red"><strong> &nbsp (Oral Presentation, Top 5.7%)</strong></font>
+
+        <br>
+        <a href="https://menyifang.github.io/projects/ADGAN/ADGAN.html">project page</a>
+        /
+        <a href="https://arxiv.org/pdf/2003.12267.pdf">arXiv</a>
+        /
+        <a href="https://www.youtube.com/watch?v=hstN3lOWVHg">video</a>
+        /
+        <a href="https://github.com/menyifang/ADGAN">code</a>
+        <p></p>
+        <p>
+        ADGAN is a novel generative model for controllable person image synthesis, which can produce realistic person images with desired human attributes (e.g., pose, head, upper clothes and pants) provided in various source inputs.
+        </p>
+      </td>
+    </tr>
+
+    <!--  DynTypo  -->
+      <tr onmouseout="dytypo_stop()" onmouseover="dytypo_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='dytypo_image'><video  width=100% muted autoplay loop>
+            <source src="images/dytypo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video></div>
+            <img src='images/dytypo.jpg' width=100%>
+          </div>
+          <script type="text/javascript">
+            function dytypo_start() {
+              document.getElementById('dytypo_image').style.opacity = "1";
+            }
+
+            function dytypo_stop() {
+              document.getElementById('dytypo_image').style.opacity = "0";
+            }
+          dytypo_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://menyifang.github.io/projects/DynTypo/DynTypo.html">
+            <span class="papertitle">DynTypo: Example-based Dynamic Text Effects Transfer</span>
+          </a>
+          <br>
+          <strong>Yifang Men</strong>,
+          Zhouhui Lian,
+          Yingmin Tang,
+          Jianguo Xiao
+          <br>
+          <em>CVPR</em>, 2019
+
+          <br>
+          <a href="https://menyifang.github.io/projects/DynTypo/DynTypo.html">project page</a>
+          /
+          <a href="https://menyifang.github.io/projects/DynTypo/DynTypo_files/Paper_DynTypo_CVPR19.pdf">paper</a>
+          /
+          <a href="https://www.youtube.com/watch?v=FkFQ6bV1s-o&feature=youtu.be">video</a>
+          <p></p>
+          <p>
+          DynTypo is a novel approach for dynamic text effects transfer by using example-based texture synthesis. High-quality results with temporal smoothing and sophisticated dynamic effects can be obtained.
+          </p>
+        </td>
+      </tr>
+      
+      
+      <!--  CFITT  -->
+      <tr onmouseout="cfitt_stop()" onmouseover="cfitt_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='cfitt_image'><video  width=100% height=100% muted autoplay loop>
+            <source src="images/cfitt.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video></div>
+            <img src='images/cfitt.jpg' width="160">
+          </div>
+          <script type="text/javascript">
+            function cfitt_start() {
+              document.getElementById('cfitt_image').style.opacity = "1";
+            }
+
+            function cfitt_stop() {
+              document.getElementById('cfitt_image').style.opacity = "0";
+            }
+          cfitt_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://menyifang.github.io/projects/CFITT/CFITT.html">
+            <span class="papertitle">A Common Framework for Interactive Texture Transfer</span>
+          </a>
+          <br>
+          <strong>Yifang Men</strong>,
+          Zhouhui Lian,
+          Yingmin Tang,
+          Jianguo Xiao
+          <br>
+          <em>CVPR, 2018</em> <font color="red"><strong> &nbsp (Spotlight, Top 7%)</strong></font>
+          <br>
+          <a href="https://menyifang.github.io/projects/CFITT/CFITT.html">project page</a> /
+          <a href="https://menyifang.github.io/projects/CFITT/CFITT_files/Men_A_Common_Framework_CVPR_2018_paper.pdf">paper</a>
+          <a href="https://github.com/menyifang/CFITT">code</a>
+          <p></p>
+          <p>
+          A general-purpose solution to interactive texture transfer problems including turning doodles into artworks, editing decorative patterns, generating texts in special effect as well as controlling effect distribution in text images, and swapping textures.
+          </p>
+        </td>
+      </tr>
+
+      
+
+          </tbody></table>
+
+          
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+            <tr>
+              <td>
+                <h2>Academic Services</h2>
+              </td>
+            </tr>
+          </tbody></table>
+          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+            
+            <tr>
+<!--                <td>-->
+<!--                <strong>Conference & Journal Reviewer:</strong> CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, SIGGRAPH, SIGGRAPH Asia-->
+<!--                </td>-->
+                
+              <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>
+              <td>
+              <strong>Conference & Journal Reviewer:</strong> CVPR, ICCV, ECCV, TPAMI, SIGGRAPH, SIGGRAPH Asia, etc.
+              </td>
+<!--              <td width="75%" valign="center">-->
+<!--                <a href="https://cvpr.thecvf.com/Conferences/2024/Organizers">Area Chair, CVPR 2024</a>-->
+<!--                <br>-->
+<!--                <a href="https://cvpr2023.thecvf.com/Conferences/2023/Organizers">Demo Chair, CVPR 2023</a>-->
+<!--                <br>-->
+<!--                <a href="https://cvpr2022.thecvf.com/area-chairs">Area Chair, CVPR 2022</a>-->
+<!--                <br>-->
+<!--                <a href="http://cvpr2021.thecvf.com/area-chairs">Area Chair & Award Committee Member, CVPR 2021</a>-->
+<!--                <br>-->
+<!--                <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>-->
+<!--                <br>-->
+<!--                <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>-->
+<!--              </td>-->
+            </tr>
+            
+            
+                        <br>
+                        <br>
+                        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <h2>Awards</h2>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <table width="100%" align="center" border="0" cellpadding="10">
+                            <tr>
+                                <td>
+                                    Excellent Dissertation Award, PKU, 2020
+                                    <br>
+                                    <br>
+                                    Schlumberger Scholarship, PKU, 2019
+                                    <br>
+                                    <br>
+                                    Huawei Scholarship, PKU, 2018
+                                    <br>
+                                    <br>
+                                    Outstanding Graduates, WHU, 2017
+                                    <br>
+                                    <br>
+                                    Meritorious Winner in MCM/ICM, Feb, 2016
+                                    <br>
+                                    <br>
+                                    Second Prize of Asia and Pacific Mathematical Contest in Modeling, 2015
+                                    <br>
+                                    <br>
+                                    First Prize in the IBM Cup Web Page Design Competition, 2014
+                                    <br>
+                                    <br>
+                                    National Scholarship, 2014
+
+                                </td>
+                            </tr>
+                        </table>
+                        
+                        
+                        <br>
+                        <br>
+                        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <h2>Experiences</h2>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <table width="100%" align="center" border="0" cellpadding="10">
+                            <tr>
+                                <td>
+                                    Researcher at DAMO Academy, Alibaba Group
+                                    <span style="float:right;">Jul. 2020 - Present</span>
+                                    <br>
+                                    <br>
+                                    Research intern at ByteDance AI Lab
+                                    <span style="float:right;">Jue. 2019 - Nov. 2019</span>
+                                    <br>
+                                    <br>
+                                    Master Degree, Peking University, Beijing, China
+                                    <span style="float:right;">Sep. 2017 - Jul. 2020</span>
+                                    <br>
+                                    <br>
+                                    Bachelor’s Degree, Wuhan University, Wuhan, China
+                                    <span style="float:right;">Sep. 2013 - Jun. 2017</span>
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                        
+                        
+                        
+                        
+            
+            
+            <br>
+                        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <h2>Contact Me</h2>
+                                </td>
+                            </tr>
+                            </tbody>
+
+                            <table width="100%" align="center" border="0" cellpadding="10">
+                                <tr>
+                                    <td>
+                                        Email: yifangmen AT pku.edu.cn
+                                    </td>
+                                </tr>
+                            </table>
+
+                           
+
+                            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                                <tbody>
+                                <tr>
+                                    <td style="padding:0px">
+                                        <br>
+                                        <p style="text-align:right;font-size:small;">
+                                        This page template is borrowed from <a href="https://github.com/jonbarron/jonbarron_website">&#10025;</a>.
+<!--                                            I borrowed the template from <a href="https://jonbarron.info">&#10025;</a>, <a-->
+<!--                                                href="http://www.cs.toronto.edu/~wenzheng/">&#10025;</a>,<a-->
+<!--                                                href="http://www.cs.toronto.edu/~zianwang/">&#10025;</a>,<a-->
+<!--                                                href="http://www.cs.toronto.edu/~shenti11/">&#10025;</a>.-->
+                                        </p>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </table>
+            
+              
+
+            
+<!--            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">-->
+<!--                            <tbody>-->
+<!--                            <tr>-->
+<!--                                <td>-->
+<!--                                    <h2>Professional Service</heading>-->
+<!--                                </td>-->
+<!--                            </tr>-->
+<!--                            </tbody>-->
+<!--                        </table>-->
+<!---->
+<!--                        <table border="0px" width="100%" align="center" border="0" cellpadding="10">-->
+<!--                            <tr>-->
+<!--                                <td>-->
+<!--                                    <strong>Program Committee:</strong> SIGGRAPH Asia 2024-->
+<!--                                    <br>-->
+<!--                                    <br>-->
+<!--                                    <strong>Area Chair:</strong> NeurIPS 2023-->
+<!--                                    <br>-->
+<!--                                    <br>-->
+<!--                                    <strong>Conference Reviewer:</strong> CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, SIGGRAPH, SIGGRAPH Asia-->
+<!--                                </td>-->
+<!--                            </tr>-->
+<!--                        </table>-->
+            
+            
+<!--          </tbody></table>-->
+<!--          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>-->
+<!--            <tr>-->
+<!--              <td style="padding:0px">-->
+<!--                <br>-->
+<!--                <p style="text-align:right;font-size:small;">-->
+<!--                This page template is borrowed from <a href="https://github.com/jonbarron/jonbarron_website">source code</a>.-->
+<!--                -->
+<!--                </p>-->
+<!--              </td>-->
+<!--            </tr>-->
+<!--          </tbody></table>-->
+          
+<!--        </td>-->
+<!--      </tr>-->
+<!--    </table>-->
+  </body>
+</html>
