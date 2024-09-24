@@ -270,6 +270,11 @@
     .a1x1demo {
       aspect-ratio: 18/7;
     }
+
+    .a26x7demo {
+      aspect-ratio: 26/7;
+    }
+
   
   img {
         display: block;
@@ -296,7 +301,7 @@
             <h1 style="font-weight: bold">
                 <b style="color: #6589bf">MI</b><b style="color: #78aa58">M</b><b style="color: #c68b5b">O</b>:
                 Controllable Character Video Synthesis with<br>
-                3D Spatial Modeling
+                Spatial Decomposed Modeling
 
             </h1>
             <!-- <h4 style="color:#5a6268;"> Conference [To be added] </h4> -->
@@ -335,7 +340,7 @@
               </div>
               <div class="column">
                 <p class="mb-5">
-                  <a class="btn btn-large btn-light" href="https://github.com/***" role="button" target="_blank">
+                  <a class="btn btn-large btn-light" href="https://github.com/menyifang/MIMO" role="button" target="_blank">
                     <i class="fa fa-github"></i>
                     Code
                   </a>
@@ -428,13 +433,13 @@ $0 -->
                   <div class="row sm-gutters">
                     <div class="col-md-6">
                       <div class="zoom-element">
-                        <video autoplay="" class="a1x1demo" data-desktop-vid1="./assets/teaser_scene11.mp4" loop="" muted="" playsinline="" poster="img/spinner.svg" width="90%">
+                        <video autoplay="" class="a1x1" data-desktop-vid1="./assets/teaser_scene11.mp4" loop="" muted="" playsinline="" poster="img/spinner.svg" width="90%">
                         </video>
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="zoom-element">
-                        <video autoplay="" class="a1x1demo" data-desktop-vid1="./assets/teaser_scene2.mp4" loop="" muted="" playsinline="" poster="img/spinner.svg" width="90%">
+                        <video autoplay="" class="a1x1" data-desktop-vid1="./assets/teaser_scene2.mp4" loop="" muted="" playsinline="" poster="img/spinner.svg" width="90%">
                         </video>
                       </div>
                     </div>
@@ -461,7 +466,7 @@ $0 -->
         </h6> 
         </div>
 
-        <video autoplay="" class="a16x9demo" data-desktop-vid1="./assets/teaser_ref3.mp4"
+        <video autoplay="" class="a26x7demo" data-desktop-vid1="./assets/teaser_ref3.mp4"
             loop="" muted="" playsinline="" poster="img/spinner.svg" width="100%">
         </video>
       </div>
@@ -1202,15 +1207,17 @@ Experimental results demonstrate the proposed method’s effectiveness and robus
           <h5 style="color: #8899a5">
             Compared with SOTA 3D methods
           </h5>
+
+          <video autoplay="" class="a16x9demo" data-desktop-vid1="./assets/demo_cmp_3d.mp4"
+            loop="" muted="" playsinline="" poster="img/spinner.svg" width="100%">
+          </video>
+
           <div class="carousel slide" data-interval="12000" data-ride="carousel" id="videoCarouse_cmp_3d">
               <ol class="carousel-indicators">
                 <li class="active" data-slide-to="0" data-target="#videoCarouse_cmp_3d">
                   <span class="indicator-dot"></span>
                 </li>
                 <li data-slide-to="1" data-target="#videoCarouse_cmp_3d">
-                  <span class="indicator-dot"></span>
-                </li>
-                <li data-slide-to="2" data-target="#videoCarouse_cmp_3d">
                   <span class="indicator-dot"></span>
                 </li>
               </ol>
@@ -1221,18 +1228,7 @@ Experimental results demonstrate the proposed method’s effectiveness and robus
                   <div class="row sm-gutters">
                     <div class="col-md-12">
                       <div class="zoom-element">
-                        <video autoplay="" class="a1x1demo" data-desktop-vid1="./assets/demo_cmp_3d.mp4" loop="" muted="" playsinline="" poster="img/spinner.svg" width="100%">
-                        </video>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                  <div class="row sm-gutters">
-                    <div class="col-md-12">
-                      <div class="zoom-element">
-                        <video class="a1x1demo" data-desktop-vid1="./assets/demo_cmp_3d_res1.mp4" loop="" muted="" playsinline="" poster="img/spinner.svg" preload="none" width="100%">
+                        <video autoplay="" class="a1x1demo" data-desktop-vid1="./assets/demo_cmp_3d_res1.mp4" loop="" muted="" playsinline="" poster="img/spinner.svg" width="100%">
                         </video>
                       </div>
                     </div>
@@ -1249,6 +1245,7 @@ Experimental results demonstrate the proposed method’s effectiveness and robus
                     </div>
                   </div>
                 </div>
+
 
               </div>
 
@@ -1308,7 +1305,7 @@ Experimental results demonstrate the proposed method’s effectiveness and robus
         <hr style="margin-top: 0px" />
         <pre style="background-color: #e9eeef; padding: 1.5em 1.5em; border-radius: 20px">
 <code>@article{men2024mimo,
-  title={MIMO: Controllable Character Video Synthesis with 3D Spatial Modeling},
+  title={MIMO: Controllable Character Video Synthesis with Spatial Decomposed Modeling},
   author={Men, Yifang and Yao, Yuan and Cui, Miaomiao and Liefeng, Bo},
   booktitle={arXiv preprint arXiv:***.****},
   year={2024}
