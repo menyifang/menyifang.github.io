@@ -316,7 +316,7 @@
             <div class="row justify-content-center">
               <div class="column">
                 <p class="mb-5">
-                  <a class="btn btn-large btn-light" href="https://arxiv.org/pdf/***" role="button" target="_blank">
+                  <a class="btn btn-large btn-light" href="https://arxiv.org/pdf/2409.16160" role="button" target="_blank">
                     <i class="fa fa-file-pdf-o"></i>
                     Paper
                   </a>
@@ -324,7 +324,7 @@
               </div>
               <div class="column">
                 <p class="mb-5">
-                  <a class="btn btn-large btn-light" href="https://arxiv.org/abs/****" role="button" target="_blank">
+                  <a class="btn btn-large btn-light" href="http://arxiv.org/abs/2409.16160" role="button" target="_blank">
                     <i class="ai ai-arxiv"></i>
                     arXiv
                   </a>
@@ -379,7 +379,7 @@ $0 -->
     <div class="container">
       <div class="row justify-content-center">
         <h6 style="color: #8899a5">
-          <b style="color: #000000">MIMO</b>, a controllable video synthesis framework, which can <b style="color: #000000">Mi</b>mic anyone anywhere in complex <b style="color: #000000">M</b>otions with <b style="color: #000000">O</b>bject interactions.
+          <b style="color: #000000">MIMO</b>, a generalizable model for controllable video synthesis, which can <b style="color: #000000">Mi</b>mic anyone anywhere in complex <b style="color: #000000">M</b>otions with <b style="color: #000000">O</b>bject interactions
           <!-- <strong>MIMO</strong>, a system can <strong>Mi</strong>mic Anyone Anywhere in Complex <strong>M</strong>otions with <strong>O</strong>bject Interactions. -->
           <!-- <strong>MIMO</strong>, a system can <strong>Mi</strong>mic anyone anywhere in complex <strong>M</strong>otions with <strong>O</strong>bject Interactions. -->
 
@@ -459,14 +459,15 @@ $0 -->
           </div>
           </div>
 
-        <h6 style="color: #8899a5">
-          Given a reference image, MIMO can also synthesize animatable avatars in driving 3D poses.
-
-          <!-- It can also act as a human generator, animating any characters with 3D motions. -->
-        </h6> 
+          <h6 style="color: #8899a5">
+          <!-- Given a reference image, MIMO can synthesize animatable avatars in driving 3D poses. -->
+          Given a reference image, MIMO can animate it with driving 3D poses via few-minute inference
+          </h6> 
+        
         </div>
 
-        <video autoplay="" class="a26x7demo" data-desktop-vid1="./assets/teaser_ref3.mp4"
+        
+        <video autoplay="" class="a26x7demo" data-desktop-vid1="./assets/teaser_ref_actorhq.mp4"
             loop="" muted="" playsinline="" poster="img/spinner.svg" width="100%">
         </video>
       </div>
@@ -474,8 +475,10 @@ $0 -->
 
     </div>
   </section>
-  
-  
+
+
+
+
 </br>
   
   <section>
@@ -490,7 +493,7 @@ $0 -->
           Character video synthesis aims to produce realistic videos of animatable characters within lifelike scenes. 
 As a fundamental problem in the computer vision and graphics community, 3D works typically require multi-view captures for per-case training, which severely limits their applicability of modeling arbitrary characters in a short time. 
 Recent 2D methods break this limitation via pre-trained diffusion models, but they struggle for pose generality and scene interaction. 
-To this end, we propose <strong>MIMO</strong>, a novel framework which can not only synthesize character videos with <strong>controllable attributes</strong> (i.e., character, motion and scene) provided by <strong>simple user inputs</strong>, but also <strong>simultaneously achieve advanced scalability to arbitrary characters, generality to novel 3D motions, and applicability to interactive real-world scenes in a unified framework</strong>. The core idea is to encode the 2D video to compact spatial codes, considering the inherent 3D nature of video occurrence.
+To this end, we propose <strong>MIMO</strong>, a novel generalizable model which can not only synthesize character videos with <strong>controllable attributes</strong> (i.e., character, motion and scene) provided by <strong>simple user inputs</strong>, but also <strong>simultaneously achieve advanced scalability to arbitrary characters, generality to novel 3D motions, and applicability to interactive real-world scenes in a unified framework</strong>. The core idea is to encode the 2D video to compact spatial codes, considering the inherent 3D nature of video occurrence.
 Concretely, we lift the 2D frame pixels into 3D using monocular depth estimators, and decompose the video clip to three spatial components (i.e., main human, underlying scene, and floating occlusion) in hierarchical layers based on the 3D depth. 
 These components are further encoded to canonical identity code, structured motion code and full scene code, which are utilized as control signals of synthesis process. 
 This spatial decomposition strategy enables flexible user control, 
@@ -1307,7 +1310,7 @@ Experimental results demonstrate the proposed method’s effectiveness and robus
 <code>@article{men2024mimo,
   title={MIMO: Controllable Character Video Synthesis with Spatial Decomposed Modeling},
   author={Men, Yifang and Yao, Yuan and Cui, Miaomiao and Liefeng, Bo},
-  booktitle={arXiv preprint arXiv:***.****},
+  booktitle={arXiv preprint arXiv:2409.16160},
   year={2024}
 }</code></pre>
         <hr />
